@@ -22,16 +22,50 @@ $sidebar_pos 	= sydney_sidebar_position();
 
 			<header class="page-header">
 				<?php
-					the_archive_title( '<h1 class="archive-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
+					// the_archive_title( '<h1 class="archive-title">', '</h1>' );
+					// the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
+            <style>
+                h3 {
+                    font-size: 32px;
+                }
+                .post__book {
+                    display: flex;
+                    /* column-gap: 25px; */
+                }
+                .post__book-image  {
+                    flex: 1 0 auto;
+                }
+                .post__book-image img {
+                    max-width: 250px;
+                    height: auto;
+                    margin-right: 30px;
+                }
+                .post__book-body {
+                    flex: 1 1 auto;
+                }
+                @media (max-width:768px) {
+                    .post__book {
+                        flex-direction:column;
+                        align-items:
+                    }
+                }
+            </style>
 			<div class="posts-layout">
 				<div class="row" <?php sydney_masonry_data(); ?>>
 					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php get_template_part( 'content', get_post_format() ); ?>
+						<!-- get_template_part( 'content', get_post_format() ); -->
+                        
+						<div class="post__book">
+                            <a href="<?php the_permalink() ?>" class="post__book-image">
+                                <?php the_post_thumbnail(); ?>
+                            </a>
+                            <div class="post__book-body">
+                                <p><?php the_content(); ?></p>
+                            </div>
+                        </div>
 
 					<?php endwhile; ?>
 				</div>

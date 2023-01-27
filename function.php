@@ -22,11 +22,7 @@ global $post;
 <?php
 	$postslist = get_posts( array( 'posts_per_page' => "200", 'cat'=>$_GET['section'] ) );
 ?>
-	
-<?php
-foreach ( $postslist as $post ){
-  setup_postdata($post);?>
-    <style>
+	    <style>
         h3 {
             font-size: 32px;
         }
@@ -52,6 +48,11 @@ foreach ( $postslist as $post ){
             }
         }
     </style>
+<?php
+
+foreach ( $postslist as $post ){
+  setup_postdata($post);?>
+
     <div class="post__book">
         <div class="post__book-image">
             <?php the_post_thumbnail(); ?>
