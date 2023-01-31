@@ -1,6 +1,6 @@
-<div class="mfca-main">
+<div class="mfca-main container">
     <div class="mfca-main__row">
-        <a href="./category/az" class="mfca-main__item">
+        <a href="./category/az-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/az.png" alt="">
             </div>
@@ -8,7 +8,7 @@
                 Azərbaycan
             </div>
         </a>
-        <a href="kz/" class="mfca-main__item">
+        <a href="./category/kz-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/kz.png" alt="">
             </div>
@@ -16,7 +16,7 @@
                 Казах
             </div>
         </a>
-        <a href="ka/" class="mfca-main__item">
+        <a href="./category/ka-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/ka.png" alt="">
             </div>
@@ -24,7 +24,7 @@
                 Қорақалпоқ
             </div>
         </a>
-        <a href="kg/" class="mfca-main__item">
+        <a href="./category/kg-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/kg.png" alt="">
             </div>
@@ -32,7 +32,7 @@
                 Кыргыз
             </div>
         </a>
-        <a href="ce/" class="mfca-main__item">
+        <a href="./category/ce-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/ce.png" alt="">
             </div>
@@ -40,7 +40,7 @@
                 Нохчи
             </div>
         </a>
-        <a href="ru/" class="mfca-main__item">
+        <a href="./category/ru-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/ru.png" alt="">
             </div>
@@ -48,7 +48,7 @@
                 Русский
             </div>
         </a>
-        <a href="tj/" class="mfca-main__item">
+        <a href="./category/tj-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/tj.png" alt="">
             </div>
@@ -56,7 +56,7 @@
                 Тоҷик
             </div>
         </a>
-        <a href="tk/" class="mfca-main__item">
+        <a href="./category/tk-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/tk.png" alt="">
             </div>
@@ -64,7 +64,7 @@
                 Türkmen
             </div>
         </a>
-        <a href="uz/" class="mfca-main__item">
+        <a href="./category/uz-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/uz.png" alt="">
             </div>
@@ -72,7 +72,7 @@
                 Ўзбек
             </div>
         </a>
-        <a href="ug/" class="mfca-main__item">
+        <a href="./category/ug-book/" class="mfca-main__item">
             <div class="mfca-main__image">
                 <img src="wp-content/themes/sydney.2.13/images/flags/ug.png" alt="">
             </div>
@@ -86,6 +86,11 @@
     .mfca-main {
         margin:0 0 0 -10px;
         width:calc(100% + 20px);
+    }
+    .container {
+        max-width: 1170px;
+        margin: 0 auto;
+        /* padding: 0 15px; */
     }
     .mfca-main__row {
         flex-wrap: wrap;
@@ -104,6 +109,8 @@
     }
 
     .mfca-main__image {
+        position: relative;
+        padding-top:66.6%;
         flex: 0 0 auto;
         transition: all 0.3s ease 0s;
     }
@@ -118,8 +125,12 @@
     }
 
     .mfca-main__image img {
+        position: absolute;
+        top:0;
+        left:0;
         width: 100%;
         height: 100%;
+        object-fit: cover;        
     }
 
     .mfca-main__text {
