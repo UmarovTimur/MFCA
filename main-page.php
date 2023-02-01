@@ -83,6 +83,9 @@
     </div>
 </div>
 <style>
+    #content {
+        justify-content:center;
+    }
     .mfca-main {
         margin:0 0 0 -10px;
         width:calc(100% + 20px);

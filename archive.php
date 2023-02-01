@@ -17,16 +17,13 @@ $sidebar_pos 	= sydney_sidebar_position();
 
 	<div id="primary" class="content-area <?php echo esc_attr( $sidebar_pos ); ?><?php echo esc_attr( apply_filters( 'sydney_content_area_class', 'col-md-9' ) ); ?>">
 		<main id="main" class="post-wrap" role="main">
-
-		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
+        <header class="page-header">
 				<?php
 					// the_archive_title( '<h1 class="archive-title">', '</h1>' );
 					// the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
                 <div class="post-header _container">
-                    <a href="../book/" id="_link-book" class="post-header__item">
+                    <a id="_link-book" class="post-header__item">
                         <div class="post-header__link ">
                             <div class="post-header__img">
                                 <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/Book-main-during-mfca-3475982.png" alt="">
@@ -36,7 +33,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                             </div>
                         </div>
                     </a>
-                    <a href="../audio/" id="_link-audi" class="post-header__item">
+                    <a id="_link-udio" class="post-header__item">
                         <div  class="post-header__link">
                             <div class="post-header__img">
                             <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/audio-main-during-mfca-3475982.png" alt="">
@@ -46,7 +43,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                             </div>
                         </div>
                     </a>
-                    <a href="../video/" id="_link-vide" class="post-header__item">
+                    <a id="_link-ideo" class="post-header__item">
                         <div  class="post-header__link">
                             <div class="post-header__img">
                                 <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/video-main-during-mfca-3475982.png" alt="">
@@ -56,7 +53,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                             </div>
                         </div>
                     </a>
-                    <a href="../story/" id="_link-stor" class="post-header__item">
+                    <a id="_link-tory" class="post-header__item">
                         <div  class="post-header__link">
                             <div class="post-header__img">
                                 <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/svidet-main-during-mfca-3475982.png" alt="">
@@ -119,50 +116,71 @@ $sidebar_pos 	= sydney_sidebar_position();
                         }
                     </style>
                     <script>
-                    // активации на нужном видео записей
-                    let variable = document.location.pathname.toString().slice(-5,-1);
-                    document.getElementById(`_link-${variable}`).classList.add('_active');
-                    // создании сыллок
-                    let langNow = document.location.pathname.toString().slice(-8,-6);
-                    let postHeaderItem = [...document.querySelectorAll('.post-header__item')];
-                    let linksForPostHeaderItems = ['-book','-audio','-video','-story'];
-                    for (let j = 0; j < postHeaderItem.length; j++) {
-                        const el = postHeaderItem[j];
-                        el.setAttribute('href',`../${langNow + linksForPostHeaderItems[j]}`);
-                    }
+                        // активации на нужном видео записей
+                        let variable = document.location.pathname.toString().slice(-5,-1);
+                        document.getElementById(`_link-${variable}`).classList.add('_active');
+                        // создании сыллок
+                        let langArray = ['az','kz','ka','kg','ce','ru','tj','tk','uz','ug'];
+                        let linksForPostHeaderItems = ['-book','-audio','-video','-story'];
+                        let langNow = document.location.pathname.toString().replace('/category/','').slice(0,2);
+                        // получение языка
+                        for (let i = 0; i < linksForPostHeaderItems.length; i++) {
+                            const element = linksForPostHeaderItems[i];
+                            langNow = langNow.replace(element,'');
+                        }
+                        // создание ссылок на основе языка
+                        let postHeaderItem = [...document.querySelectorAll('.post-header__item')];
+                        for (let j = 0; j < postHeaderItem.length; j++) {
+                            const el = postHeaderItem[j];
+                            el.setAttribute('href',`../${langNow + linksForPostHeaderItems[j]}`);
+                        }
                     </script>
                 </div>
-			</header><!-- .page-header -->
-            
-            <script>
-                const langCategory = ['az','kz'];
-                let urlLangCategory = document.location.pathname.toString();
-                console.log(urlLangCategory);
-                console.log(urlLangCategory[9][-1]);
-                for (let i = 0; i <script langCategory.length; i++) {
-                    if (urlLangCategory == langCategory) {
-                        console.log('Redirect!');
-                        break;
-                    }
-                }
-            </script>
+			</header>
+            <!-- .page-header -->
+		<?php if ( have_posts() ) : ?>
             <style>
-                h3 {
+                h3 a {
                     font-size: 32px;
+                    color:var(--sydney-headings-color);
+                }
+                h3 a:hover {
+                    opacity: 0.8;
+                }
+                @media screen and (max-width:767px) {
+                    .posts-layout {
+                        padding: 0 15px;
+                    }
                 }
                 .post__book {
                     display: flex;
                     margin-bottom: 25px;
                     /* column-gap: 25px; */
                 }
-                .post__book-image  {
+                .post__book-image {
                     flex: 1 0 auto;
                     text-align: center;
+                    position: relative;
+                    margin-right: 30px;
+
+                }
+                .post__book-image::before {
+                    content:"";
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    width: 100%;
+                    height: 100%;
+                    opacity:0;
+                    background-color:#fff;
+                    transition: all .3s ease 0s;
+                }
+                .post__book-image:hover::before {
+                        opacity: .3;
                 }
                 .post__book-image img {
                     max-width: 250px;
                     height: auto;
-                    margin-right: 30px;
                 }
                 .post__book-body {
                     flex: 1 1 auto;
@@ -172,12 +190,12 @@ $sidebar_pos 	= sydney_sidebar_position();
                         flex-direction:column;
                         margin-bottom: 15px;
                     }
-                    .post__book-image img {
+                    .post__book-image {
                         margin-right: 0px;
                     }
                 }
             </style>
-			<div class="posts-layout container">
+			<div class="posts-layout">
 				<div class="" <?php sydney_masonry_data(); ?>>
 					<?php while ( have_posts() ) : the_post(); ?>
 
@@ -188,7 +206,12 @@ $sidebar_pos 	= sydney_sidebar_position();
                                 <?php the_post_thumbnail(); ?>
                             </a>
                             <div class="post__book-body">
-                                <p><?php the_content(); ?></p>
+                                <h3>
+                                    <a href="<?php the_permalink() ?>">
+                                        <?php the_title(); ?>
+                                    </a>
+                                </h3>
+                                <?php the_excerpt(); ?>
                             </div>
                         </div>
 
@@ -199,7 +222,11 @@ $sidebar_pos 	= sydney_sidebar_position();
 			<?php sydney_posts_navigation(); ?>	
 
 		<?php else : ?>
-
+            <style>
+                #main {
+                    padding-top: 25px;
+                }
+            </style>
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
