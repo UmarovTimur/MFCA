@@ -287,4 +287,12 @@ if ( is_home() || is_front_page() ) {
 
 }
 } // end of dimox_breadcrumbs()
+
+function check_string($str) {
+    return (strpos($str, 'book') !== false || strpos($str, 'audio') !== false || strpos($str, 'video') !== false || strpos($str, 'story') !== false);
+}
+
+print check_string('my book is great!'); // true
+print check_string('my table is great!'); // false
+
 ?>
