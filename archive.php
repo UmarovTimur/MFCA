@@ -115,8 +115,31 @@ $sidebar_pos 	= sydney_sidebar_position();
                             }
                         }
                     </style>
+					
                     <script>
-                        // активации на нужном видео записей
+						// получение url страницы
+						let menuItemsObjectCategory = [...document.querySelectorAll('.menu-item-object-category')];
+						let variableForHref = document.location.pathname.toString().slice(-5,-1);
+						for (let i = 0;i<menuItemsObjectCategory.length;i++) {
+							let therefs = [...menuItemsObjectCategory[i].getElementsByTagName('a')];
+							if (variableForHref == 'book') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-book/";
+							}
+							if (variableForHref == 'udio') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-audio/";
+							}
+							if (variableForHref == 'ideo') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-video/";
+							}
+							if (variableForHref == 'tory') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-story/";
+							}
+						}
+						
+						
+						
+						
+                        // активации на нужном типе записей
                         let variable = document.location.pathname.toString().slice(-5,-1);
                         document.getElementById(`_link-${variable}`).classList.add('_active');
                         // создании сыллок
