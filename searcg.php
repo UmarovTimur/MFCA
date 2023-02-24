@@ -23,15 +23,35 @@ $archive_title_layout = get_theme_mod( 'archive_title_layout', 'layout1' );
 				<h3><?php printf( __( 'Search Results for: %s', 'sydney' ), '<span>' . get_search_query() . '</span>' ); ?></h3>
 			</header><!-- .page-header -->
 
-			<div class="posts-layout">
+			<div class="posts-layout search-layout-custom">
 				<div class="row" <?php sydney_masonry_data(); ?> <?php echo esc_attr( apply_filters( 'sydney_posts_layout_row', '' ) ); ?>>
 					<?php while ( have_posts() ) : the_post(); ?>
-
-						<?php get_template_part( 'content', get_post_format() ); ?>
+					
+<!-- 					get_template_part( 'content', get_post_format() ); -->
+					
+						<div class="post__book">
+						    <a href="<?php the_permalink() ?>" class="post__book-image">
+							<?php the_post_thumbnail(); ?>
+						    </a>
+							<?php the_title(); ?>
+						</div>
 
 					<?php endwhile; ?>
+					<?php the_posts_pagination(); ?>
 				</div>
 			</div>
+			
+			<style>
+				.row {
+					display:flex;
+					flex-wrap:wrap;
+					margin:0
+				}
+				.post__book {
+					flex: 1 0 250px;
+					
+				}
+			</style>
 
 			<?php sydney_posts_navigation(); ?>	
 
