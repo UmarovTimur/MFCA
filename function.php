@@ -129,7 +129,9 @@ if ( is_home() || is_front_page() ) {
         foreach ( array_reverse( $parents ) as $cat ) {
             $position += 1;
             if ( $position > 1 ) echo $sep;
-            echo sprintf( $link, get_category_link( $cat ), get_cat_name( $cat ), $position );
+		if ( $cat != "book" || $cat != "audio" || $cat != "video" || $cat != "story") {
+			echo sprintf( $link, get_category_link( $cat ), get_cat_name( $cat ), $position );
+		}
         }
         if ( get_query_var( 'paged' ) ) {
             $position += 1;
