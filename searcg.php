@@ -33,7 +33,9 @@ $archive_title_layout = get_theme_mod( 'archive_title_layout', 'layout1' );
 						    <a href="<?php the_permalink() ?>" class="post__book-image">
 							<?php the_post_thumbnail(); ?>
 						    </a>
-							<?php the_title(); ?>
+							<h3>
+								<?php the_title(); ?>
+							</h3>
 						</div>
 
 					<?php endwhile; ?>
