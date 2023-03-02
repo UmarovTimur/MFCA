@@ -164,13 +164,13 @@ $sidebar_pos 	= sydney_sidebar_position();
 		<?php if ( have_posts() ) : ?>
             <style>
                 h3 a {
-                    font-size: 32px;
+                    font-size: 28px;
                     color:var(--sydney-headings-color);
                 }
                 h3 a:hover {
                     opacity: 0.8;
                 }
-                @media screen and (max-width:767px) {
+                @media screen and (max-width:550px) {
                     .posts-layout {
                         padding: 0 15px;
                     }
@@ -202,13 +202,13 @@ $sidebar_pos 	= sydney_sidebar_position();
                         opacity: .3;
                 }
                 .post__book-image img {
-                    max-width: 250px;
+                    max-width: 170px;
                     height: auto;
                 }
                 .post__book-body {
                     flex: 1 1 auto;
                 }
-                @media (max-width:768px) {
+                @media (max-width:550px) {
                     .post__book {
                         flex-direction:column;
                         margin-bottom: 15px;
@@ -216,6 +216,9 @@ $sidebar_pos 	= sydney_sidebar_position();
                     .post__book-image {
                         margin-right: 0px;
                     }
+		    .post__book-image img {
+                    	max-width: 300px;
+	            }
                 }
             </style>
 			<div class="posts-layout">
