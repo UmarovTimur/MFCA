@@ -68,7 +68,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                             display: flex;
                             padding: 4px 4px;
                             background-color: #00102E;
-                            margin-bottom:27px;
+                            margin-bottom:30px;
                         }
 
                         .post-header__item {
