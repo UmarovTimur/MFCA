@@ -26,7 +26,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                     <a id="_link-book" class="post-header__item">
                         <div class="post-header__link ">
                             <div class="post-header__img">
-                                <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/Book-main-during-mfca-3475982.png" alt="">
+                                <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/Book-main-during-mfca-3475982.png" alt="">
                             </div>
                             <div class="post-header__text">
                                 Book
@@ -36,7 +36,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                     <a id="_link-udio" class="post-header__item">
                         <div  class="post-header__link">
                             <div class="post-header__img">
-                            <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/audio-main-during-mfca-3475982.png" alt="">
+                            <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/audio-main-during-mfca-3475982.png" alt="">
                             </div>
                             <div class="post-header__text">
                                 Audio
@@ -46,7 +46,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                     <a id="_link-ideo" class="post-header__item">
                         <div  class="post-header__link">
                             <div class="post-header__img">
-                                <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/video-main-during-mfca-3475982.png" alt="">
+                                <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/video-main-during-mfca-3475982.png" alt="">
                             </div>
                             <div class="post-header__text">
                                 Video
@@ -56,7 +56,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                     <a id="_link-tory" class="post-header__item">
                         <div  class="post-header__link">
                             <div class="post-header__img">
-                                <img src="../../wp-content/themes/sydney.2.13/images/main-rubrik-in-lang/svidet-main-during-mfca-3475982.png" alt="">
+                                <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/svidet-main-during-mfca-3475982.png" alt="">
                             </div>
                             <div class="post-header__text">
                                 Story
