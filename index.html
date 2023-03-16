@@ -1,40 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <style>
-        h3 {
-            font-size: 32px;
-        }
-        .post__book {
-            display: flex;
-            column-gap: 25px;
-        }
-        .post__book-image  {
-            flex: 1 0 auto;
-        }
-        .post__book-image img {
-            max-width: 250px;
-            height: auto;
-        }
-        .post__book-body {
-            flex: 1 1 auto;
-        }
-    </style>
-    <div class="post__book">
-        <div class="post__book-image">
-            <img src="https://mfca.uzlatin.com/wp-content/uploads/2022/12/AZ_COVER_Love-and-respect.jpg" alt="">
-        </div>
-        <div class="post__book-body">
-            <h3><strong>MƏHƏBBƏTİN BEŞ DİLİ</strong></h3>
-            <p>Qeri Çepmenin «Məhəbbətin beş dili» konsepsiyasını — hədiyyə, sevdiyin insana vaxt ayırmaq, kömək etmək, ruhlandırmaq və toxunmaq dilləri — xülasə edən əsas kitabı. Hər insanın öz məhəbbət dili var. Ola bilsin ki, sevdiyiniz insan sizin dilinizi çətinliklə başa düşür. Çepmen bir növ tərcümə etməyi öyrədir. Kitabın əsas həcmi ər-arvadın sevgisini nümunə gətirməklə, beş dil konsepsiyasından ibarətdir. Çepmen həm öz dilini, həm də başqalarının dilini ayırd etməyi öyrədir. Baxmayaraq ki, Çepmenin müzakirə etdiyi əsas mövzusu ər-arvad sevgisidir, o, valideynlər, uşaqlar, dostlar, qonşular və s. kimi mövzulara da toxunur.</p>
-            <p><a href="https://mfca.uzlatin.com/" data-type="URL" data-id="https://mfca.uzlatin.com/">Download DOCX</a></p>
-        </div>
+<div class="mfca-main container">
+    <div class="mfca-main__row">
+        <a href="./category/az-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/az.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Azərbaycan
+            </div>
+        </a>
+        <a href="./category/kz-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/kz.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Казах
+            </div>
+        </a>
+        <a href="./category/ka-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/ka.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Қорақалпоқ
+            </div>
+        </a>
+        <a href="./category/kg-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/kg.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Кыргыз
+            </div>
+        </a>
+        <a href="./category/ce-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/ce.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Нохчи
+            </div>
+        </a>
+        <a href="./category/ru-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/ru.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Русский
+            </div>
+        </a>
+        <a href="./category/tj-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/tj.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Тоҷик
+            </div>
+        </a>
+        <a href="./category/tk-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/tk.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Türkmen
+            </div>
+        </a>
+        <a href="./category/uz-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/uz.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Ўзбек
+            </div>
+        </a>
+        <a href="./category/ug-book/" class="mfca-main__item">
+            <div class="mfca-main__image">
+                <img src="wp-content/themes/sydney.2.13/images/flags/ug.png" alt="">
+            </div>
+            <div class="mfca-main__text">
+                Уйғур
+            </div>
+        </a>
     </div>
-</body>
-</html>
+</div>
+<style>
+    #content {
+        justify-content:center;
+    }
+    .mfca-main {
+        margin:0 0 0 -10px;
+        width:calc(100% + 20px);
+    }
+    .container {
+        max-width: 1170px;
+        margin: 0 auto;
+        /* padding: 0 15px; */
+    }
+    .mfca-main__row {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+
+    }
+    .mfca-main__item {
+        display: flex;
+        flex-direction: column;
+        flex:0 0 20%;
+        padding: 0px 10px;
+        text-decoration: none;
+        margin-bottom: 20px;
+        min-width: 182px;
+    }
+
+    .mfca-main__image {
+        position: relative;
+        padding-top:66.6%;
+        flex: 0 0 auto;
+        transition: all 0.3s ease 0s;
+    }
+
+    .mfca-main__image:active {
+        transform: scale(0.9);
+    }
+    @media (any-hover: hover) {
+        .mfca-main__image:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .mfca-main__image img {
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;        
+    }
+
+    .mfca-main__text {
+        text-align: center;
+        font-size: 16px;
+        color: black;
+    }
+
+
+    @media (max-width:992px) {
+        .mfca-main__text {
+            font-size: 1.1em;
+        }
+    }
+    .title-post {
+        display:none;
+    }
+</style>
