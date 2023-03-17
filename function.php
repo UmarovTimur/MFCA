@@ -935,3 +935,10 @@ function dimox_breadcrumbs() {
 
 	}
 } // end of dimox_breadcrumbs()
+
+
+function add_post_formats() {
+    add_theme_support( 'post-formats', array( 'audio','video', 'aside', 'image') );
+}
+
+add_action( 'after_setup_theme', 'add_post_formats', 20 );
