@@ -240,7 +240,7 @@ $sidebar_pos 	= sydney_sidebar_position();
 						<?php
 						} else {
 						?>
-							<div class="post__book">
+							<div style="display:block;" class="post__book">
 								<?php the_content();?>
 							</div>
 						
