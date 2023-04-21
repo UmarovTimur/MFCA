@@ -57,10 +57,12 @@ $archive_title_layout = get_theme_mod( 'archive_title_layout', 'layout1' );
 				}
 				.post__book {
 					flex: 1 0 250px;
-					
+				}
+				.no-sidebar .layout1 {
+					max-width:100%;			
 				}
 			</style>
-
+	
 			<?php sydney_posts_navigation(); ?>	
 
 		<?php else : ?>
