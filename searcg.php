@@ -25,19 +25,25 @@ $archive_title_layout = get_theme_mod( 'archive_title_layout', 'layout1' );
 
 			<div class="posts-layout search-layout-custom">
 				<div class="row" <?php sydney_masonry_data(); ?> <?php echo esc_attr( apply_filters( 'sydney_posts_layout_row', '' ) ); ?>>
+					<?php $current_category = ''; ?>
 					<?php while ( have_posts() ) : the_post(); ?>
-					
-<!-- 					get_template_part( 'content', get_post_format() ); -->
-					
-						<div class="post__book">
-						    <a href="<?php the_permalink() ?>" class="post__book-image">
-							<?php the_post_thumbnail(); ?>
-						    </a>
-							<h3>
-								<?php the_title(); ?>
-							</h3>
-						</div>
+					<?php 
+					$post_category = get_the_category()[0]->name;
+					if ( $post_category != $current_category ) {
+					    // Display the category title for a new group
+					    echo '<h2>' . $post_category . '</h2>';
+					    $current_category = $post_category;
+					}
 
+					// Display the post content for this group
+					// You can customize this to display whatever post information you want
+					?>
+					<article <?php post_class(); ?>>
+					    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					    <div class="entry-content">
+						<?php the_excerpt(); ?>
+					    </div>
+					</article>
 					<?php endwhile; ?>
 					<?php the_posts_pagination(); ?>
 				</div>
