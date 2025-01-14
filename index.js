@@ -72,6 +72,6 @@ function getCategoreisId() {
         });
 }
 
-// connectToDatabase(); 
+// connectToDatabase();
 // createPost("Заголовок поста", );
-getCategoreisId();
+// getCategoreisId();
