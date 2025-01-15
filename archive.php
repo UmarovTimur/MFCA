@@ -145,7 +145,7 @@ $sidebar_pos 	= sydney_sidebar_position();
                         // создании сыллок
                         let langArray = ['az','kz','ka','kg','ce','ru','tj','tk','uz','ug'];
                         let linksForPostHeaderItems = ['-book','-audio','-video','-story'];
-                        let langNow = document.location.pathname.toString().replace('/category/','').slice(0,2);
+                        let langNow = document.location.pathname.toString().replace('/c/','').slice(0,2);
                         // получение языка
                         for (let i = 0; i < linksForPostHeaderItems.length; i++) {
                             const element = linksForPostHeaderItems[i];
