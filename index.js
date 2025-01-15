@@ -23,16 +23,14 @@ async function connectToDatabase() {
         const [rows] = await connection.execute(`SELECT * FROM ${TABLE_NAME} LIMIT 1`);
 
         const options = parseBook(rows[0]);
-        // createPost(options);
+        createPost(options);
 
         // rows.forEach(async (row) => {
         //     const options = parseBook(row);
         //     createPost(options);
         // });
+        // removeFeaturedImage(rows[0].id);
 
-        // setTimeout(() => {
-        //     removeFeaturedImage(rows[0].id);
-        // }, 500);
 
 
         await connection.end();
@@ -43,7 +41,6 @@ async function connectToDatabase() {
 
 // Функция для создания поста
 async function createPost(options) {
-    console.log(options);
     try {
         const response = await fetch(URL, {
             method: "POST",
@@ -63,6 +60,9 @@ async function createPost(options) {
 
         const data = await response.json();
         console.log("Post created successfully:", data.title);
+        await removeFeaturedImage(data.id);
+
+
         return data;
     } catch (error) {
         console.error("Failed to create post:", error);
@@ -133,7 +133,7 @@ async function removeFeaturedImage(postId) {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                featured_media: 0 // Устанавливаем значение 0 для удаления изображения
+                status: "publish",
             })
         });
 
@@ -142,8 +142,7 @@ async function removeFeaturedImage(postId) {
         }
 
         const postData = await response.json();
-        console.log("Post updated successfully:", postData);
-
+        console.log("Featured image removed successfully:", postData.title);
     } catch (error) {
         console.error("Error removing featured image:", error);
     }
