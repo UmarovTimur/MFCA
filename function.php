@@ -417,6 +417,17 @@ function sydney_header_clone() {
 }
 add_action('sydney_before_header', 'sydney_header_clone');
 
+
+// == Redirecy from /category/ to /c/
+add_action('template_redirect', function () {
+    if (strpos($_SERVER['REQUEST_URI'], '/category/') === 0) {
+        $new_url = str_replace('/category/', '/c/', $_SERVER['REQUEST_URI']);
+        wp_redirect($new_url, 301);
+        exit;
+    }
+});
+
+
 /**
  * Get image alt
  */
@@ -745,7 +756,7 @@ function dimox_breadcrumbs() {
 	$after          = '</span>'; // тег после текущей "крошки"
 
 	$show_on_home   = 0; // 1 - показывать "хлебные крошки" на главной странице, 0 - не показывать
-	$show_home_link = 1; // 1 - показывать ссылку "Главная", 0 - не показывать
+	$show_home_link = 0; // 1 - показывать ссылку "Главная", 0 - не показывать
 	$show_current   = 1; // 1 - показывать название текущей страницы, 0 - не показывать
 	$show_last_sep  = 1; // 1 - показывать последний разделитель, когда название текущей страницы не отображается, 0 - не показывать
 	/* === КОНЕЦ ОПЦИЙ === */
@@ -942,3 +953,200 @@ function add_post_formats() {
 }
 
 add_action( 'after_setup_theme', 'add_post_formats', 20 );
+
+
+function add_fifu_meta_to_rest() {
+    register_post_meta('post', 'fifu_image_url', [
+        'type' => 'string',
+        'single' => true,
+        'show_in_rest' => true,
+    ]);
+}
+add_action('init', 'add_fifu_meta_to_rest');
+
+function post_types_menu_header() {
+	?>
+	<header class="page-header">
+				<?php
+					// the_archive_title( '<h1 class="archive-title">', '</h1>' );
+					// the_archive_description( '<div class="taxonomy-description">', '</div>' );
+				?>
+                <div class="post-header _container">
+                    <a id="_link-book" class="post-header__item">
+                        <div class="post-header__link ">
+                            <div class="post-header__img">
+                                <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/Book-main-during-mfca-3475982.png" alt="">
+                            </div>
+                            <div class="post-header__text">
+                                Book
+                            </div>
+                        </div>
+                    </a>
+                    <a id="_link-udio" class="post-header__item">
+                        <div  class="post-header__link">
+                            <div class="post-header__img">
+                            <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/audio-main-during-mfca-3475982.png" alt="">
+                            </div>
+                            <div class="post-header__text">
+                                Audio
+                            </div>
+                        </div>
+                    </a>
+                    <a id="_link-ideo" class="post-header__item">
+                        <div  class="post-header__link">
+                            <div class="post-header__img">
+                                <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/video-main-during-mfca-3475982.png" alt="">
+                            </div>
+                            <div class="post-header__text">
+                                Video
+                            </div>
+                        </div>
+                    </a>
+                    <!-- <a id="_link-tory" class="post-header__item">
+                        <div  class="post-header__link">
+                            <div class="post-header__img">
+                                <img src="https://mfca.uzlatin.com/wp-content/uploads/2023/03/svidet-main-during-mfca-3475982.png" alt="">
+                            </div>
+                            <div class="post-header__text">
+                                Story
+                            </div>
+                        </div>
+                    </a> -->
+                    <style>	
+                        .post-header {
+                            display: flex;
+                            padding: 4px 4px;
+                            background-color: #00102E;
+                            margin-bottom:30px;
+							margin-top: 30px;
+                        }
+
+                        .post-header__item {
+                            padding: 10px 20px;
+                            transition: all .3s ease 0s;
+                        }
+                        .post-header__item._active {
+                            background-color: rgba(255, 255, 255, 0.6) !important;  
+                        }
+                        .post-header__item:hover {
+                            background-color: rgba(255, 255, 255, 0.3);
+                        }
+                        .post-header__link {
+                            display: flex;
+                            align-items: center;
+                            color: white;
+                        }
+                        .post-header__img {
+                            height: 40px;
+                            margin-right: 10px;
+                        }
+                        .post-header__img img{
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                        .post-header__text {
+                            color:white !important;
+                        }
+                        @media screen and (max-width:767.98px) {
+                            .post-header {
+                                margin-top: 15px;
+                                margin-bottom:15px;
+                                
+                            }
+                            .post-header__item {
+                                flex: 0 1 25%;
+                                padding: 10px 10px;
+                            }
+                            .post-header__img {
+                                margin-right: 0;
+                            }
+                            .post-header__link {
+                                flex-direction: column;
+                            }
+                        }
+                    </style>
+					
+					<?php 
+					if ( is_single() ) {
+						?>
+						<script>
+							// https://mfca.site/uz/1132/ => https://mfca.site/c/uz/uz-book/
+							let langNow = getPathSegment(document.location, 0);
+	                        let postHeaderItem = [...document.querySelectorAll('.post-header__item')];
+							const linksForPostHeaderItems = ['-book', '-audio', '-video', '-story'];
+
+
+							console.log(langNow);
+							let preffixLink = window.location.origin + `/c/${langNow}/${langNow}` ;
+
+							for (let j = 0; j < postHeaderItem.length; j++) {
+								const el = postHeaderItem[j];
+								el.setAttribute('href',preffixLink + linksForPostHeaderItems[j]);
+							}
+
+
+
+							function getPathSegment(url, pos) {
+								const u = new URL(url);
+								const path = u.pathname.split('/').filter(segment => segment.length > 0);
+								return path[pos] || null;
+							} 
+
+						</script>
+						<?php
+					} else {
+						?>
+						<script>
+						// https://mfca.site/c/uz/uz-book/ => https://mfca.site/c/uz/uz-audio/
+						// https://mfca.site/c/uz-book/page/2/ => https://mfca.site/c/uz/uz-audio/
+						// получение url страницы
+						let menuItemsObjectCategory = [...document.querySelectorAll('.menu-item-object-category')];
+						let variableForHref = document.location.pathname.toString().slice(-5,-1);
+						for (let i = 0;i<menuItemsObjectCategory.length;i++) {
+							let therefs = [...menuItemsObjectCategory[i].getElementsByTagName('a')];
+							if (variableForHref == 'book') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-book/";
+							}
+							if (variableForHref == 'udio') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-audio/";
+							}
+							if (variableForHref == 'ideo') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-video/";
+							}
+							if (variableForHref == 'tory') {
+								therefs[0].href = therefs[0].href.toString().slice(0,-1) + "-story/";
+							}
+						}
+						
+						
+						
+						
+                        // активации на нужном типе записей
+                        let variable = document.location.pathname.toString().replace(/page\/\d+\//g, '').slice(-5,-1);
+                        document.getElementById(`_link-${variable}`).classList.add('_active');
+                        // создании сыллок
+                        let langArray = ['az','kz','ka','kg','ce','ru','tj','tk','uz','ug'];
+                        let linksForPostHeaderItems = ['-book','-audio','-video','-story'];
+                        let langNow = document.location.pathname.toString().replace('/c/','').slice(0,2);
+                        // получение языка
+                        for (let i = 0; i < linksForPostHeaderItems.length; i++) {
+                            const element = linksForPostHeaderItems[i];
+                            langNow = langNow.replace(element,'');
+                        }
+                        // создание ссылок на основе языка
+                        let postHeaderItem = [...document.querySelectorAll('.post-header__item')];
+                        for (let j = 0; j < postHeaderItem.length; j++) {
+                            const el = postHeaderItem[j];
+                            el.setAttribute('href',`../${langNow + linksForPostHeaderItems[j]}`);
+                        }
+                    </script>
+						<?php
+					}
+					?>
+
+					
+                    
+                </div>
+			</header>
+	<?php
+}
