@@ -1150,3 +1150,76 @@ function post_types_menu_header() {
 			</header>
 	<?php
 }
+
+function render_post_slider( $posts, $slider_id = 'customPostSlider' ) {
+    if ( empty( $posts ) || ! is_array( $posts ) ) return;
+
+    ob_start();
+    ?>
+    <div class="custom-slider" id="<?php echo esc_attr($slider_id); ?>">
+        <?php foreach ( $posts as $post ) : ?>
+            <a href="<?php echo get_permalink($post); ?>" class="slider-card">
+                <div class="slider-thumb">
+                    <?php echo get_the_post_thumbnail( $post, 'medium' ); ?>
+                </div>
+                <div class="slider-title"><?php echo esc_html( get_the_title( $post ) ); ?></div>
+            </a>
+        <?php endforeach; ?>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const slider = document.getElementById('<?php echo esc_js($slider_id); ?>');
+        if (!slider) return;
+
+        let isDown = false;
+        let startX, scrollLeft;
+
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+            slider.classList.add('dragging');
+        });
+
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('dragging');
+        });
+
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('dragging');
+        });
+
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 1.5;
+            slider.scrollLeft = scrollLeft - walk;
+        });
+    });
+    </script>
+    <?php
+    return ob_get_clean();
+}
+
+function render_post_grid( $posts, $grid_id = 'customPostGrid' ) {
+    if ( empty( $posts ) || ! is_array( $posts ) ) return;
+
+    ob_start();
+    ?>
+    <div class="custom-grid" id="<?php echo esc_attr($grid_id); ?>">
+        <?php foreach ( $posts as $post ) : ?>
+            <a href="<?php echo get_permalink($post); ?>" class="grid-card">
+                <div class="grid-thumb">
+                    <?php echo get_the_post_thumbnail( $post, 'medium' ); ?>
+                </div>
+                <div class="grid-title"><?php echo esc_html( get_the_title( $post ) ); ?></div>
+            </a>
+        <?php endforeach; ?>
+    </div>
+    <?php
+    return ob_get_clean();
+}
+?>
