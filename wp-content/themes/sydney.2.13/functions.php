@@ -1222,4 +1222,21 @@ function render_post_grid( $posts, $grid_id = 'customPostGrid' ) {
     <?php
     return ob_get_clean();
 }
+
+function local_translate($text, $lang) {
+	// ['az','kz','ka','kg','ce','ru','tj','tk','uz','ug']
+	$translations = [
+        "book" => [
+            "uz" => "Kitoblar"
+        ],
+        "audio" => [
+            "ru" => "Аудиокниги",
+            "uz" => "Audio Kitoblar"
+        ],
+    ];
+    if (isset($translations[$text][$lang])) {
+        return $translations[$text][$lang];
+    }
+	 return $text;
+}
 ?>

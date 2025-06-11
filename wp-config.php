@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'u684340623_mfca' );
 
 /** Database username */
-define( 'DB_USER', 'u684340623_mfca' );
+define( 'DB_USER', 'wp_user' );
 
 /** Database password */
-define( 'DB_PASSWORD', '5^UxlSyL&Pcq' );
+define( 'DB_PASSWORD', 'wp_password' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -89,7 +89,8 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+define('WP_HOME', 'http://localhost:8080');
+define('WP_SITEURL', 'http://localhost:8080');
 
 /* That's all, stop editing! Happy publishing. */
 

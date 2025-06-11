@@ -10,6 +10,7 @@ services:
     ports:
       - "8080:80"
     volumes:
+      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
       - ./wp-content/themes/sydney.2.13:/var/www/html/wp-content/themes/sydney.2.13
       - ./wp-content/plugins:/var/www/html/wp-content/plugins
     environment:
@@ -33,6 +34,8 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     networks:
       - wordpress-network
+    ports:
+      - "3306:3306"
 
   # phpMyAdmin
   phpmyadmin:
@@ -45,6 +48,9 @@ services:
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      PHP_UPLOAD_MAX_FILESIZE: 10M
+      PHP_POST_MAX_SIZE: 10M
+      UPLOAD_LIMIT: 100000000
     networks:
       - wordpress-network
 
