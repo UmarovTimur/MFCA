@@ -11,8 +11,8 @@ services:
       - "8080:80"
     volumes:
       - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
-      - ./wp-content/themes/sydney.2.13:/var/www/html/wp-content/themes/sydney.2.13
-      - ./wp-content/plugins:/var/www/html/wp-content/plugins
+      - ./sydney.2.13:/var/www/html/wp-content/themes/sydney.2.13
+      - ./plugins:/var/www/html/wp-content/plugins
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: ${MYSQL_USER}
