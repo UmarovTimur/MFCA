@@ -1,0 +1,44 @@
+# Название workflow, которое будет отображаться в GitHub
+name: Deploy Theme to FTP
+
+# Триггер: запускать этот workflow при каждом push в ветку 'main'
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  # Название задачи
+  ftp-deploy:
+    name: Deploy Theme
+    # Использовать последнюю версию Ubuntu в качестве операционной системы для выполнения
+    runs-on: ubuntu-latest
+
+    steps:
+      # Шаг 1: Клонирование вашего репозитория в рабочее окружение GitHub Actions
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Шаг 2: Загрузка темы на FTP-сервер
+      - name: FTP Deploy
+        # Использование популярного action для деплоя по FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # Адрес вашего FTP-сервера из секретов
+          server: ${{ secrets.FTP_SERVER }}
+          # Имя пользователя FTP из секретов
+          username: ${{ secrets.FTP_USERNAME }}
+          # Пароль FTP из секретов
+          password: ${{ secrets.FTP_PASSWORD }}
+
+          # -------------------------------------------------------------------
+          # ВАЖНО: Укажите правильные пути здесь
+          # -------------------------------------------------------------------
+
+          # Локальная папка в репозитории, которую нужно загрузить.
+          # Убедитесь, что 'sydney.2.13' - это точное имя вашей папки с темой.
+          local-dir: ./sydney.2.13/
+
+          # Папка на сервере, куда будут загружены файлы.
+          # Темы WordPress должны находиться в wp-content/themes/
+          server-dir: wp-content/themes/sydney.2.13/
