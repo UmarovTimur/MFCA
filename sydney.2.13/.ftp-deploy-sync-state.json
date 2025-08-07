@@ -1,0 +1,2537 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1750026688443,
+    "data": [
+        {
+            "type": "file",
+            "name": "404.php",
+            "size": 329,
+            "hash": "42a44e1ab1f5d76f8b6bc507f6e18144c13cc7a77dabf599010216c35465bc27"
+        },
+        {
+            "type": "file",
+            "name": "archive-employees.php",
+            "size": 2610,
+            "hash": "a2f1c01bdf9100cb7c1aae88719a96163c979ea00f590ea1ee7e549404b96d79"
+        },
+        {
+            "type": "file",
+            "name": "archive-services.php",
+            "size": 1628,
+            "hash": "ee7ea9fe57d971a33480f3e3fb82e2914eb82a154b209c3bbf4e49c791bc1253"
+        },
+        {
+            "type": "file",
+            "name": "archive.php",
+            "size": 2201,
+            "hash": "2e1f9c3a27d3f6b43311c808cd8862bbcc56efe6a700911381a3eeeafeb65276"
+        },
+        {
+            "type": "file",
+            "name": "changelog.txt",
+            "size": 62,
+            "hash": "e997ba0485b0ffd0fd2988dca5e2f0b555ea0e6fb8611032c5970ada399973a9"
+        },
+        {
+            "type": "file",
+            "name": "comments.php",
+            "size": 2711,
+            "hash": "9272c8f3547100e2b14bacda3b65ea46682f18b44387804acd56441e689c6071"
+        },
+        {
+            "type": "file",
+            "name": "content-none.php",
+            "size": 1066,
+            "hash": "f3f735faac44f7b971fd5cba3974a100990b9d13a6c84e108e7b75f8592db3d4"
+        },
+        {
+            "type": "file",
+            "name": "content-page.php",
+            "size": 1046,
+            "hash": "ad9da1c0ef0596960d201c5e8b256aee5b867e4b01c337bfc8730a0060bbc2db"
+        },
+        {
+            "type": "file",
+            "name": "content-search.php",
+            "size": 1230,
+            "hash": "9b3d6d61e741d0456799acdf370923f9cd093eff57b89ce528a77204bab5b555"
+        },
+        {
+            "type": "file",
+            "name": "content-single.php",
+            "size": 1994,
+            "hash": "41d653f348b7e240d6d1bb97719d8ea1e27aa958d7f6ddfdb924da8426d8acab"
+        },
+        {
+            "type": "file",
+            "name": "content.php",
+            "size": 306,
+            "hash": "16b0a5b9833fa735789dc7a4163436190cbb6af368238fd6a8f2af65e3c38204"
+        },
+        {
+            "type": "folder",
+            "name": "css"
+        },
+        {
+            "type": "folder",
+            "name": "fonts"
+        },
+        {
+            "type": "file",
+            "name": "footer.php",
+            "size": 1516,
+            "hash": "dfbb2585688a590b742f6ae849094a8adba3c362c39b3f0cecfe26e10724cc5b"
+        },
+        {
+            "type": "file",
+            "name": "functions.php",
+            "size": 44178,
+            "hash": "c9b6ca87ff6f4f49235192932e76149089240dad0be3ee72b20fb4e4981c89aa"
+        },
+        {
+            "type": "file",
+            "name": "header.php",
+            "size": 2009,
+            "hash": "0915653b8c5b237aa7573ff5b6e09c839784f7e8a780ae0cabe1533341c6e51a"
+        },
+        {
+            "type": "file",
+            "name": "home.php",
+            "size": 1026,
+            "hash": "e9b0e1d9426cd5edb2177a3b0c393e905b49d93fcedbb52c4425211be174299e"
+        },
+        {
+            "type": "folder",
+            "name": "images"
+        },
+        {
+            "type": "folder",
+            "name": "inc"
+        },
+        {
+            "type": "file",
+            "name": "index.php",
+            "size": 1317,
+            "hash": "ac439ab353512ebd9c79bf7db593e5ef99fddf49fbfa62ab4bb07a46ea9f9643"
+        },
+        {
+            "type": "folder",
+            "name": "js"
+        },
+        {
+            "type": "folder",
+            "name": "languages"
+        },
+        {
+            "type": "file",
+            "name": "license.txt",
+            "size": 15039,
+            "hash": "17a6140cede54370505f0c39d08cfdf7e82915eb95c4239082f7027a2ab26431"
+        },
+        {
+            "type": "folder",
+            "name": "page-templates"
+        },
+        {
+            "type": "file",
+            "name": "page.php",
+            "size": 1257,
+            "hash": "8d17b4ba45bb2e74c817aaa4ae3822247eee0314797077c3281a2235a31e5484"
+        },
+        {
+            "type": "folder",
+            "name": "part-templates"
+        },
+        {
+            "type": "folder",
+            "name": "post-templates"
+        },
+        {
+            "type": "file",
+            "name": "readme.txt",
+            "size": 2493,
+            "hash": "d59bfe474dfe7331573c67e02df4fa5d2501acab6f08fceead4fdc38ce831001"
+        },
+        {
+            "type": "file",
+            "name": "rtl.css",
+            "size": 2400,
+            "hash": "0e4ebf4a03018f02903dfe0cbe23bde255b74a45597ce8301ed5a60d3edd7098"
+        },
+        {
+            "type": "file",
+            "name": "screenshot.png",
+            "size": 317464,
+            "hash": "258cd91f68ebda7eb42dfd09e406045c68dc1ef41747d16c37833753a3b75724"
+        },
+        {
+            "type": "file",
+            "name": "search.php",
+            "size": 4550,
+            "hash": "59328873b6e37e7fd59206f70a25407f693b61d9385e1629d0afd6579818eb20"
+        },
+        {
+            "type": "file",
+            "name": "sidebar-footer.php",
+            "size": 1253,
+            "hash": "ca9ed5f7262e0f471d5613a2d12d79fa830b99e1db0aa56647730bc3049b3aa6"
+        },
+        {
+            "type": "file",
+            "name": "sidebar.php",
+            "size": 323,
+            "hash": "9f37f0b4cf5ab12c43bcc2f26cff0412a302696a8bc2afe7d21835d7d60f89ee"
+        },
+        {
+            "type": "file",
+            "name": "single.php",
+            "size": 6046,
+            "hash": "af8e10700e72b7cce05092a762d651fa3b5b6741f61d14a6889c879007d01a26"
+        },
+        {
+            "type": "file",
+            "name": "style.css",
+            "size": 1336,
+            "hash": "5f6cd8d86ce91d0461eb396e047559a426cb107fb8fd04d45b01e55c3d2892be"
+        },
+        {
+            "type": "file",
+            "name": "sydney-gutenberg-editor-styles.css",
+            "size": 3263,
+            "hash": "131c553ca1fc74c17d8e5e47319791dc141f40ab47567887652bb3973759f986"
+        },
+        {
+            "type": "folder",
+            "name": "theme-dashboard"
+        },
+        {
+            "type": "folder",
+            "name": "vendor"
+        },
+        {
+            "type": "folder",
+            "name": "widgets"
+        },
+        {
+            "type": "folder",
+            "name": "woocommerce"
+        },
+        {
+            "type": "file",
+            "name": "wpml-config.xml",
+            "size": 724,
+            "hash": "1c23879036143ff1a0e90cdb95831ad220f9cb6c14343c688ed35574312a45ad"
+        },
+        {
+            "type": "file",
+            "name": "css/archive.css",
+            "size": 5048,
+            "hash": "8e8ad25b66d8cad2f8526675bffadd79a42f63b28d5cb4ce4cb9ac6388887640"
+        },
+        {
+            "type": "folder",
+            "name": "css/bootstrap"
+        },
+        {
+            "type": "folder",
+            "name": "css/components"
+        },
+        {
+            "type": "file",
+            "name": "css/customizer.css",
+            "size": 32241,
+            "hash": "3330d4c46a457bd4b73602c558f51af38ee60a3a56400cf50ad86af8e304d2c9"
+        },
+        {
+            "type": "file",
+            "name": "css/customizer.min.css",
+            "size": 27200,
+            "hash": "b21e61fb89091b1c9662b39a4c619bf7d86293cbc78d956f6623600504273e5a"
+        },
+        {
+            "type": "file",
+            "name": "css/ie9.css",
+            "size": 47,
+            "hash": "64d24f36a09e127631ae64630cf912f8f082f954d82d5c8fdbd0e37dace0e185"
+        },
+        {
+            "type": "file",
+            "name": "css/info-page.css",
+            "size": 1445,
+            "hash": "a6c03369294d7e268a35e017e4392d1fe9585a4b1ff8b8c45f36251a7a02e490"
+        },
+        {
+            "type": "file",
+            "name": "css/select2.css",
+            "size": 17604,
+            "hash": "c6ac55e050e3e6db253b3e8c575de97675e07fade527056269d9fffdc88a988b"
+        },
+        {
+            "type": "file",
+            "name": "css/select2.min.css",
+            "size": 15196,
+            "hash": "c493991dfa712d1fee861d41c18152e5f8663807484506a23ae97917f6fbbf7b"
+        },
+        {
+            "type": "file",
+            "name": "css/styles.css",
+            "size": 140777,
+            "hash": "64a70e08e041898e74762a3101a612c98e584674a007fe3a9ad2d532143d1884"
+        },
+        {
+            "type": "file",
+            "name": "css/styles.min.css",
+            "size": 46630,
+            "hash": "1733bb820def4b1b6038d792a5be8a3d8f6d5e3dab8bd4e034276b058f84899e"
+        },
+        {
+            "type": "file",
+            "name": "fonts/FontAwesome.otf",
+            "size": 134808,
+            "hash": "444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5"
+        },
+        {
+            "type": "folder",
+            "name": "fonts/font-awesome-v5"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome.css",
+            "size": 37414,
+            "hash": "36e0a7e08bee65774168528938072c536437669c1b7458ac77976ec788e4439c"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome.min.css",
+            "size": 31000,
+            "hash": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd"
+        },
+        {
+            "type": "file",
+            "name": "fonts/fontawesome-webfont.eot",
+            "size": 165742,
+            "hash": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979"
+        },
+        {
+            "type": "file",
+            "name": "fonts/fontawesome-webfont.svg",
+            "size": 444379,
+            "hash": "ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4"
+        },
+        {
+            "type": "file",
+            "name": "fonts/fontawesome-webfont.ttf",
+            "size": 165548,
+            "hash": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8"
+        },
+        {
+            "type": "file",
+            "name": "fonts/fontawesome-webfont.woff",
+            "size": 98024,
+            "hash": "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07"
+        },
+        {
+            "type": "file",
+            "name": "fonts/fontawesome-webfont.woff2",
+            "size": 77160,
+            "hash": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe"
+        },
+        {
+            "type": "file",
+            "name": "fonts/langfont.ttf",
+            "size": 31600,
+            "hash": "be0432071ac19cf3d25edc98f854808a107708849a30e2eb982ceac7f6848514"
+        },
+        {
+            "type": "file",
+            "name": "fonts/langfont.woff",
+            "size": 31676,
+            "hash": "3ed128ecddc58684e16718e6d2e3a8642b054d93c4d5166e56b331cd35cac8b2"
+        },
+        {
+            "type": "folder",
+            "name": "images/customizer"
+        },
+        {
+            "type": "folder",
+            "name": "images/flags"
+        },
+        {
+            "type": "folder",
+            "name": "images/main-rubrik-in-lang"
+        },
+        {
+            "type": "file",
+            "name": "inc/custom-header.php",
+            "size": 3825,
+            "hash": "d983db2976d353bc523de6b52b3dba0b1b65fddb435829783fbb5bab910c0580"
+        },
+        {
+            "type": "folder",
+            "name": "inc/classes"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer"
+        },
+        {
+            "type": "file",
+            "name": "inc/display-conditions.php",
+            "size": 4328,
+            "hash": "248006f68be79c66702739229e2317bee70ff6d2ec51d7140fd44a20b21218cd"
+        },
+        {
+            "type": "file",
+            "name": "inc/editor.php",
+            "size": 7192,
+            "hash": "2b067107ad988220ee50f94541a506d10d3347a8c993ae3732d9a264a685379a"
+        },
+        {
+            "type": "file",
+            "name": "inc/extras.php",
+            "size": 21521,
+            "hash": "bcf2fc418139fd5789337c37f9b312b804c9ed7525015ee472b59ae7b7f74c4e"
+        },
+        {
+            "type": "file",
+            "name": "inc/fonts.php",
+            "size": 13656,
+            "hash": "4c8fa52c402fe990f5eed4e1f8583b955e016e3e0573ee1f66968366608e1676"
+        },
+        {
+            "type": "folder",
+            "name": "inc/integrations"
+        },
+        {
+            "type": "file",
+            "name": "inc/jetpack.php",
+            "size": 392,
+            "hash": "ccf2f3f3bf26619b12e80fe495a0da11d3282a2180a1befa545a65c2aa75a33e"
+        },
+        {
+            "type": "folder",
+            "name": "inc/notices"
+        },
+        {
+            "type": "folder",
+            "name": "inc/onboarding"
+        },
+        {
+            "type": "file",
+            "name": "inc/page-builder.php",
+            "size": 7104,
+            "hash": "a94a35a6fb8875be8f2c4daf0e0674f7dc719e397b4995b1d90bcbbe73bc9444"
+        },
+        {
+            "type": "file",
+            "name": "inc/schema.php",
+            "size": 2077,
+            "hash": "aaeb5f0e9be078eb6202f9b1321ea705f7c681781a1e11132f2f3894c9e8792c"
+        },
+        {
+            "type": "file",
+            "name": "inc/slider.php",
+            "size": 5966,
+            "hash": "3ebb66f10a4b44b9151ad49d553b85d56e208075f9e714ac81f372929432db72"
+        },
+        {
+            "type": "file",
+            "name": "inc/so-page-builder.php",
+            "size": 7104,
+            "hash": "a94a35a6fb8875be8f2c4daf0e0674f7dc719e397b4995b1d90bcbbe73bc9444"
+        },
+        {
+            "type": "file",
+            "name": "inc/template-tags.php",
+            "size": 15902,
+            "hash": "174b6d9f7736ce8d6e64ba5bcdadc23f0d84efca6517f0f39f40571034606a99"
+        },
+        {
+            "type": "file",
+            "name": "inc/styles.php",
+            "size": 61512,
+            "hash": "29a0e84a9008fca94709772560cf73697e307b7667fefca32849e0fa85b90c8c"
+        },
+        {
+            "type": "file",
+            "name": "inc/theme-dashboard-settings.php",
+            "size": 11204,
+            "hash": "9ff4415e5313668d140e1fca3bd9d7386ce46e7da070838fc51791a7b0788748"
+        },
+        {
+            "type": "file",
+            "name": "inc/theme-update.php",
+            "size": 9849,
+            "hash": "990f3694429c4cab4e0b39b19a878e43aefc2a76a87ba9c8194e4862ca886280"
+        },
+        {
+            "type": "file",
+            "name": "inc/woocommerce.php",
+            "size": 46909,
+            "hash": "e20565c92c3791ae85bb64fb068d66a8dba7ef7d67d19125a3cd844dc2693cde"
+        },
+        {
+            "type": "file",
+            "name": "js/admin-functions.js",
+            "size": 2440,
+            "hash": "bad560c6fad9f2f1f0d0ebac9d52cb8d5451926e7c5a797a11316b55cfcfb252"
+        },
+        {
+            "type": "file",
+            "name": "js/customize-controls.js",
+            "size": 39356,
+            "hash": "9edeb564eaf137352d0bb0c34dfcc367b689ab9eae8ffffc60d50fd2e7693855"
+        },
+        {
+            "type": "file",
+            "name": "js/customize-controls.min.js",
+            "size": 21967,
+            "hash": "4908ef060a266a70f19a66865f5724296e0b6eb52d543b0be8b1e19470909657"
+        },
+        {
+            "type": "file",
+            "name": "js/customizer-select2.js",
+            "size": 170,
+            "hash": "dfc038a70ec4fdf3d58388539cae14b9797fd90f590eb6100c6f86c0b2f74da7"
+        },
+        {
+            "type": "file",
+            "name": "js/customizer.js",
+            "size": 35200,
+            "hash": "84c6cc17cb17b70c4c5ae9eb731f309b83c57da2d1b3245d5b6a05ba3cc52acb"
+        },
+        {
+            "type": "file",
+            "name": "js/customizer.min.js",
+            "size": 26872,
+            "hash": "e6e727bb081602c3fcf5d2a11b0d3512870b28f35b3822830cd66e6aa9decf98"
+        },
+        {
+            "type": "file",
+            "name": "js/elementor.js",
+            "size": 2535,
+            "hash": "91bd87ff0eb5d1d4b9f35a966a7d043df21079388aaa271c0af43437bf07c6c8"
+        },
+        {
+            "type": "file",
+            "name": "js/functions.js",
+            "size": 18008,
+            "hash": "b57c7b7d4da048d810b443293616a141db89b8cf319e977b14ca577b76ef7516"
+        },
+        {
+            "type": "file",
+            "name": "js/functions.min.js",
+            "size": 10114,
+            "hash": "150db7b0d89969fb6e9e675b81e7cd8e1a36782806c229c87722097efaefa9d1"
+        },
+        {
+            "type": "file",
+            "name": "js/hero-slider.js",
+            "size": 10258,
+            "hash": "277d03bf7cef45ef51ff03778ed2b2b87becee69fc31a834c51fcafbe20a8560"
+        },
+        {
+            "type": "file",
+            "name": "js/imagesloaded.pkgd.js",
+            "size": 12282,
+            "hash": "df6fa4c337c64a5f371a51ada040f63a83a887cc7ba7cc75e35fad28bebdb6e1"
+        },
+        {
+            "type": "file",
+            "name": "js/info-page.js",
+            "size": 1210,
+            "hash": "ae42e75380c0dd69cbdf2c1667b6a0a54a31137139290828770744d39a3df087"
+        },
+        {
+            "type": "file",
+            "name": "js/isotope.pkgd.js",
+            "size": 89451,
+            "hash": "4af6c56396d18b1130aefc10e14567b9b2261d2f9ddb77767673302c4cf1b0f1"
+        },
+        {
+            "type": "file",
+            "name": "js/jquery.countTo.js",
+            "size": 3760,
+            "hash": "9df93fdfa66cc6850e164f1c2429b34ebf1a63cbfc2d35ecea3cdcdfda27fc22"
+        },
+        {
+            "type": "file",
+            "name": "js/jquery.fitvids.js",
+            "size": 2698,
+            "hash": "cf53667dcf4c290c42b652154f2880981ccd9de593d5d1841cc027783408d101"
+        },
+        {
+            "type": "file",
+            "name": "js/jquery.superslides.js",
+            "size": 14827,
+            "hash": "cc58355632fbdb1905cca10a110859dfe68f05bcbc9d90eec57165b852c43561"
+        },
+        {
+            "type": "file",
+            "name": "js/owl.carousel.js",
+            "size": 52896,
+            "hash": "f995efeab9f944f44aa60e8d4f9a0eb63e109bbe32316f8e52f32ff52435d00c"
+        },
+        {
+            "type": "file",
+            "name": "js/scripts.js",
+            "size": 65584,
+            "hash": "e66c6d3803aaffc304e91d104339abe413d999bf5494c4a3c468c0561e71acf1"
+        },
+        {
+            "type": "file",
+            "name": "js/select2.js",
+            "size": 166153,
+            "hash": "f5f1761805649d2bd4eaace4ec1d960eb06baa9384f026c0027ff4aa4af5cfc5"
+        },
+        {
+            "type": "file",
+            "name": "js/select2.min.js",
+            "size": 76272,
+            "hash": "9ff15425ca7bdb0f367ee5613ee729d7dc8108295f7e3d646100408f81e33c84"
+        },
+        {
+            "type": "file",
+            "name": "js/so-legacy-main.js",
+            "size": 7677,
+            "hash": "5c05375f7ac19087dbc692f3b235df1c74b8f4dce31d2435623947377860ab3f"
+        },
+        {
+            "type": "file",
+            "name": "js/so-legacy-main.min.js",
+            "size": 4780,
+            "hash": "31ee667f80e3521390ef609ac81f75e4677a85672aae8efda5fb69c81d3c4e4c"
+        },
+        {
+            "type": "file",
+            "name": "js/so-legacy.js",
+            "size": 10146,
+            "hash": "1288468cd9261b7f13407aaac93ed6d82874059ee8aa25c605c4b594f169ec74"
+        },
+        {
+            "type": "file",
+            "name": "js/waypoints.js",
+            "size": 16795,
+            "hash": "723e40b9e215980b0aa53c9955975adc12d2711b6fb311cdd37ddea5c50970a5"
+        },
+        {
+            "type": "file",
+            "name": "languages/sydney.pot",
+            "size": 87863,
+            "hash": "6c04401aea721feec774ad583ee69ec9816b65b88fc5530f777276b4cddd3479"
+        },
+        {
+            "type": "file",
+            "name": "page-templates/home-page.php",
+            "size": 6535,
+            "hash": "dfba5fba10f92c929bf854e8b9d3f6546200c2f865a4393bb427a168bbe47f34"
+        },
+        {
+            "type": "file",
+            "name": "page-templates/page_front-page.php",
+            "size": 391,
+            "hash": "cf9798a0cf78c72d872b8ba8a83e29cf2b569f125d9944d74e099ed8e6db4f64"
+        },
+        {
+            "type": "file",
+            "name": "part-templates/archive-main-category.php",
+            "size": 4819,
+            "hash": "fde2185a8aaa6872385c30a25695920596f84af5d998bcd00b15b0884a29bbff"
+        },
+        {
+            "type": "file",
+            "name": "page-templates/page_fullwidth.php",
+            "size": 502,
+            "hash": "e9925cf2a731311f71dcfbe4001ca577c21a6b83f99dde36f6850aef147512c7"
+        },
+        {
+            "type": "file",
+            "name": "part-templates/archive-subcategory.php",
+            "size": 4870,
+            "hash": "cc240bf46c643ae6ceac53e6784c84e568c458a52c2aaff8943a382c0e48762c"
+        },
+        {
+            "type": "file",
+            "name": "post-templates/post_nosidebar.php",
+            "size": 605,
+            "hash": "b8fb811de9d9b7d21051ed0972d35120c4a110e4e127a79cc4d50d00e1612b14"
+        },
+        {
+            "type": "file",
+            "name": "post-templates/post_full.php",
+            "size": 358,
+            "hash": "08b3bf45fd7473d78b267e9e7e5ebafd6f2e5b3eefdd421753f04fc4a92283d1"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/class-theme-dashboard.php",
+            "size": 27023,
+            "hash": "f6534fb34e2724c7dcb96704987b3a39f486a5ba8ca8f414a76a558e8c75587f"
+        },
+        {
+            "type": "folder",
+            "name": "theme-dashboard/images"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/style.css",
+            "size": 18749,
+            "hash": "168c604cc0e67467519ca513bf60050ed5ad2c77302c98da8706e0174b1bfb19"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/scripts.js",
+            "size": 2434,
+            "hash": "138019f740d06294d79bfe5059dae5045e1e37dfb52eab4c5f73a57cbe3436e2"
+        },
+        {
+            "type": "file",
+            "name": "vendor/autoload.php",
+            "size": 178,
+            "hash": "8f3cdafb38b985a5f8503484ea59c4aa202fc93aee59ef4042f5f918b2df4582"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/composer"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/wptt-webfont-loader"
+        },
+        {
+            "type": "file",
+            "name": "widgets/contact-info.php",
+            "size": 3631,
+            "hash": "971457547ba2c4ab4e9a36b93bc75d2ff1716f78503ad378817b2ceaaf2d8922"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-call-to-action.php",
+            "size": 4494,
+            "hash": "46dd77e032208702d084d98c8b092432bf683d094b7e679b25aa78223f4d26f1"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-clients.php",
+            "size": 5915,
+            "hash": "e6a5ef45968cbe5d601de5c74097b644ccc9a05e4f2d15cf439709ba3c11c33c"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-employees.php",
+            "size": 8207,
+            "hash": "cc0353dd79472694e6002dba870820d4a4acf684d0bfbf745e6a4f05abc20c0b"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-facts.php",
+            "size": 10955,
+            "hash": "97b1e94cde55f3f02acdc64a0ae3f1d660aaa43690407c651cb7911e59e65bd3"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-latest-news.php",
+            "size": 4229,
+            "hash": "aa20eaf5321d7d558dea14c39d9912e03308614fe712639c3a1c20aa94f30ee4"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-list.php",
+            "size": 4220,
+            "hash": "11809bd55e5feb17a6ebc0078b1d00ec2b608a932345f038700aa4e2dd34847e"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-portfolio.php",
+            "size": 8191,
+            "hash": "b3204ae09f18a3662acf8953c8e8cd74ac1336a6d4d37e5d03b8dfe43b7ec433"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-services-type-a.php",
+            "size": 8060,
+            "hash": "468a939f883a828615799994c197817473d71b5e8116a4ebc6bcc5ecfb0a2ff6"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-services-type-b.php",
+            "size": 8235,
+            "hash": "1b5a5e3690c704bbb4bf9fc9062490bf311f73d79f6c6e781da0580eabd44662"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-skills.php",
+            "size": 7863,
+            "hash": "2ad9d609d92729f665717cc3fee3a8c788a88a91816fff32e593c02948b4715d"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-social.php",
+            "size": 3132,
+            "hash": "dd9174bc75aaf8ad0cf017c962d003e09431c3ce324b6003310d934d4038314a"
+        },
+        {
+            "type": "file",
+            "name": "widgets/fp-testimonials.php",
+            "size": 6281,
+            "hash": "0e45fa8b7db0cb8a08a58810e44fa1b47f4b819f304c280c5f0c1b49d29947ca"
+        },
+        {
+            "type": "file",
+            "name": "widgets/video-widget.php",
+            "size": 3874,
+            "hash": "943a9d149e011742ef054a6c94af7000ce7f8b680057daa8f6c8b59ee3578280"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/add-to-wishlist-added.php",
+            "size": 1501,
+            "hash": "6966b4235fd1702617d6060e7b725dab1310a101d5aa6fd6e5163461a64de516"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/add-to-wishlist-browse.php",
+            "size": 1671,
+            "hash": "7c25da2b8484d8bc7aa64009d0f7efddccdd3ed0aadaa54d1735b7ef19da7cff"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/add-to-wishlist-button.php",
+            "size": 2080,
+            "hash": "e69729da4d655a06f88043e15633ec8601e4c7acb865d5677623c5844ee34c4b"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/add-to-wishlist-remove.php",
+            "size": 2011,
+            "hash": "49f51260c787dc690aec5ae3e195361b5b8f52ec10eec8e98bebc1017f547e47"
+        },
+        {
+            "type": "folder",
+            "name": "woocommerce/cart"
+        },
+        {
+            "type": "folder",
+            "name": "woocommerce/css"
+        },
+        {
+            "type": "folder",
+            "name": "woocommerce/fonts"
+        },
+        {
+            "type": "folder",
+            "name": "woocommerce/single-product"
+        },
+        {
+            "type": "file",
+            "name": "css/bootstrap/bootstrap.css",
+            "size": 13281,
+            "hash": "edf252037e03a9ba586c80c8ac0c3d86ebd9db4c86080becc0e5b95e544307f6"
+        },
+        {
+            "type": "file",
+            "name": "css/bootstrap/bootstrap.min.css",
+            "size": 7223,
+            "hash": "a3d39290746ebd836e9b24fc82c3801d614874445e80a7b711f7fd8651e899a7"
+        },
+        {
+            "type": "file",
+            "name": "css/components/comments.css",
+            "size": 1599,
+            "hash": "e02ebf2e7a5a6f61a318481259ff64798a942dba56b544b7b6e8510e825a3540"
+        },
+        {
+            "type": "file",
+            "name": "css/components/comments.min.css",
+            "size": 1207,
+            "hash": "7d7d5f846f7539c8ccd6120a4168d63a08e22d0ed29da4e5c3dee12542901160"
+        },
+        {
+            "type": "file",
+            "name": "css/components/elementor.css",
+            "size": 12938,
+            "hash": "54f524be3743c7ec4acd3d2d4eb30bef28669b1a381eef61e156adc139c0826e"
+        },
+        {
+            "type": "file",
+            "name": "css/components/elementor.min.css",
+            "size": 9855,
+            "hash": "a141013f8cfceae09ce15ea50c6e160282b5aa7db6a42cf9f76869428421afcd"
+        },
+        {
+            "type": "file",
+            "name": "css/components/hero-slider.css",
+            "size": 2914,
+            "hash": "9f364cd0811d264af76c257084ef0c07b20fe872fe4c235a12ac28cf8d8af3b9"
+        },
+        {
+            "type": "file",
+            "name": "css/components/hero-slider.min.css",
+            "size": 2263,
+            "hash": "8e6a8703768a4ad60878fb5e9eb345ba7d1db25aec2edb036feca4d59d718191"
+        },
+        {
+            "type": "file",
+            "name": "css/components/siteorigin.css",
+            "size": 23737,
+            "hash": "5c1922dad76e591249e953c172b3bf3b9088096ca5687f92ede466664e328b80"
+        },
+        {
+            "type": "file",
+            "name": "css/components/siteorigin.min.css",
+            "size": 18041,
+            "hash": "4b1944237b4c1266b32e2a8f342e8196a8fa601a7e4db4133a2683b62c8e2123"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/all.css",
+            "size": 73571,
+            "hash": "bf410b3c0e33519f821fc19ec5764f67e1e0d2494251a3aa2b8671aff1d591f4"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/all.min.css",
+            "size": 59290,
+            "hash": "ad11f4c0f0b4dd5f7abe150c94b846bbd5a4d15dcf3ff0d0884e4fc6613ca3c8"
+        },
+        {
+            "type": "folder",
+            "name": "fonts/font-awesome-v5/webfonts"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/ac1.svg",
+            "size": 2909,
+            "hash": "128dc25389dfbcc67e4cb6b493fc9def95a07225e7ecc8a1d4ea6939b41833b3"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/ac2.svg",
+            "size": 4928,
+            "hash": "8002c6e5ef85d4adc700873e5b822a9e3bcfbc59dde9efed1a317f01f75cd78f"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/ac4.svg",
+            "size": 3375,
+            "hash": "b19f88ab8c86a60c073ec8f3b8eddb9f65fc466f278b83b5445ca29513ed1d3c"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/ac3.svg",
+            "size": 4937,
+            "hash": "cb707f04c76f95a80ff8b44fc959fb00fa76aa90b9144c6fcdd47498780a3352"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/bl1.svg",
+            "size": 1193,
+            "hash": "999a982adaa54f652cfa6437282873014a5acf52c2b219a050e00107a0ebd8d4"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/bl2.svg",
+            "size": 1257,
+            "hash": "36bc5e91ed8359adc3f830fd00ff836fadf7297b3fa56b17b2b135b02b9772ca"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/bl3.svg",
+            "size": 2027,
+            "hash": "41e3cfc6d05fcf3254d9df6a6b325c3c11cd42971f6144ac918b24e53f6fd709"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/bl4.svg",
+            "size": 1724,
+            "hash": "c23ecaa43a022eadf5a6251c50ec4c0a5408baecdd562e76b7d81b19e7b97444"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/bl5.svg",
+            "size": 1608,
+            "hash": "cea3bc02d152a07bba21108b1b8dd512fee28ee99d27fae108074f8486b171b9"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/bl6.svg",
+            "size": 1724,
+            "hash": "a0102353958952eb244ede14cf70a15939d4249333d10344a6eb9b7c7b6b43cc"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/card1.svg",
+            "size": 2259,
+            "hash": "47431174393b2ea2f03486af3c3dea5bafd05dc6e66b398675fdff0e9e212a34"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/card2.svg",
+            "size": 2909,
+            "hash": "af5b943e8a506cb167ea58d475816fea8dc926b86698bf9ce6f8503515742389"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/card3.svg",
+            "size": 2905,
+            "hash": "01481c58861004cbb87ae90bbae5064cc8266a6dc10ed00c07d07c996e1a8a1c"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/cart1.svg",
+            "size": 1835,
+            "hash": "cfe5337d410024200fe610f8126791e2efbc9287caf2e9731f945436b8d777c9"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/cart2.svg",
+            "size": 2227,
+            "hash": "18de729e1b281a74791909fbbea17e1ff1e8228c82ab8eabc92449982c3ea3fc"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/checkout1.svg",
+            "size": 1581,
+            "hash": "c819b1ba7e06adf71c8f682f4b3f7bc75ef42d5b19df1267efcf07c905124ea7"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/checkout2.svg",
+            "size": 1419,
+            "hash": "005bfa28c9a39a950eab7a65ee5d0d9f465b524035626e066ccbf810fd97276a"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/color-picker-transparency-grid.png",
+            "size": 1560,
+            "hash": "bddc98eabd033136b1fed5f5d2cdbb838dfefc464598d5cb61d54aa4eba63dd1"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/disabled.svg",
+            "size": 370,
+            "hash": "d89fc282b4a849c48e45bb8d4b9abd965b68d88700157b21bcc2c6a9b0b9d589"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl1.svg",
+            "size": 197,
+            "hash": "343263606da34425c679c73a446c763bdc9eb4114c72c6529b7c754486d71a71"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl10.svg",
+            "size": 392,
+            "hash": "a87526cada8c46e14047f9096b6406c24e44f87360c86a04db474cc4eac9bc86"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl2 - Copy.svg",
+            "size": 262,
+            "hash": "f6f4452504772664b968ae3ae492af06640d15c840e87c99a3e354d82d47bbc3"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl2.svg",
+            "size": 262,
+            "hash": "f6f4452504772664b968ae3ae492af06640d15c840e87c99a3e354d82d47bbc3"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl4.svg",
+            "size": 262,
+            "hash": "baf6fcdd854225168e950dc3f54ef4c5ebcec0be761d84367c9f5a2b4be8ec10"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl5.svg",
+            "size": 327,
+            "hash": "984663d89cd8f174c30d3af87572405ac887e10035af4aa50ad0f8cb1bf54b68"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl3.svg",
+            "size": 262,
+            "hash": "d263b3bab30060d6deded8f3368cc9a88403f7d528e9c9e7c17ac55756476eea"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl6.svg",
+            "size": 327,
+            "hash": "9c4cef1d0c51f18cb47228dcdf4cd4fc7c21e11c607595aa111f314de11b28f5"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl7.svg",
+            "size": 327,
+            "hash": "4476779314be694812d8035b80215c5dfa1e847a03f885eb8b6c93dc579dd6d0"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl8.svg",
+            "size": 392,
+            "hash": "54747b3e3c919d1444237dbe83897a39d379a76cf8e15afaa1eb92fc29991b02"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/fl9.svg",
+            "size": 392,
+            "hash": "6c59d510ea82b13364cc55687f9889be735f0ecdb96e2305b9562396f8e7d541"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/gc1.svg",
+            "size": 1293,
+            "hash": "8d79691726b41fa9e84fbeb45dd2be626ba5c419ca8865dc340cd7b84922d890"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/gc2.svg",
+            "size": 1322,
+            "hash": "6219bfe5575affe1e25da7fb7e7d04ec604e91b970545eb0b2216de1a2877aed"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/hl1.svg",
+            "size": 1279,
+            "hash": "8b546dd708e4e7987d074e801b9489620494de742074c94465330201117f3618"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/gc3.svg",
+            "size": 1392,
+            "hash": "034ef3b104abf1f5399a28131136dfae6de1f88fa715b46c7a68d255bf064284"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/hl2.svg",
+            "size": 1279,
+            "hash": "b7b045bdc55ebc48186c80caa2a1a659be23b2d8e3dad24217fd76c07ef79cde"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/hl3.svg",
+            "size": 1410,
+            "hash": "f233b8d52c2e2a164cc22a4cf99c267450a749191f34a04099a9a5f72bf36338"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/hl4.svg",
+            "size": 1607,
+            "hash": "32cc14c4ce33c9a87469915bf95c32b3cba49e0d9d9719cb0857a364e27cba7b"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/hl5.svg",
+            "size": 1607,
+            "hash": "6090972b9c86f05d395d83900215e2201d4f7c241a0f80204d6461782d983e8b"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/mhl1.svg",
+            "size": 1152,
+            "hash": "4bddfab2209b8be5f9214387e3743eaae5d3a8e6a1bceea4e3e40ccc9e4667c2"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/mhl2.svg",
+            "size": 1151,
+            "hash": "08b0bb9fff011ece200def6146e170164351db94afcd03d16b6ca5d2461b5cda"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/mhl3.svg",
+            "size": 1156,
+            "hash": "96200d8aec080f6b665745d16aaec1155da68f8e8ec8f5a4735eb47779cfa0b2"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/oc1.svg",
+            "size": 1055,
+            "hash": "94f844ac963184b5818374cac88bf9a4eb0e58ca64a3602cb0de42397b9da5ff"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/oc2.svg",
+            "size": 503,
+            "hash": "ffdacaa2c4ccd8e4b83149f932b5c6559b052805fe4256f475763eda5c8ed6c3"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/pc1.svg",
+            "size": 2909,
+            "hash": "af5b943e8a506cb167ea58d475816fea8dc926b86698bf9ce6f8503515742389"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/pc2.svg",
+            "size": 2955,
+            "hash": "6b722ab72a461fffea9051113dcb327819fc45d3d4b2b2f13dc1b5f0114ad7c0"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/pcat1.svg",
+            "size": 3365,
+            "hash": "71dce82f29c8a70efe3f903c490b64f9ea5ec57b7543291bd0bdb0ccd033c49a"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/pcat2.svg",
+            "size": 3412,
+            "hash": "cb0a7229ca0d31c46ba53727af4c830ed2fd83d2783d883982301296dae9eeae"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/pcat3.svg",
+            "size": 3568,
+            "hash": "19756f4dcdcaee64f029f555e6289f761ba2831457016a4ea13e023674f7dbe3"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/pcat4.svg",
+            "size": 3399,
+            "hash": "5e307019aacbd66eadcd69f869a69094259a70d4d335000ae5bb4367766b44af"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/pcat5.svg",
+            "size": 3393,
+            "hash": "2d8513c6a4548987de1eef09969035b5d7ae4941ea2f952e6a91be3902fc6792"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/qw1.svg",
+            "size": 780,
+            "hash": "425cddc922df54bc58be0866153a022dee4d3a8be78f12a3f388e121c85431cf"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/qw2.svg",
+            "size": 2445,
+            "hash": "bc1b60af0b69596a610f18e73b1b2a67549f98f79cad4979691740ca83a5b76b"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/qw3.svg",
+            "size": 2466,
+            "hash": "417e8812047477c5db76f13ea591cb1935de29839157f0f3f71ff45a7e3c18f7"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sale1.svg",
+            "size": 1437,
+            "hash": "51c8414618b53979b6d38c6debff7ef26c9c0b14f262fa7142c8276d30d8b290"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sale2.svg",
+            "size": 1437,
+            "hash": "0315a14ccd1c871fafde78ca34cf460772c15e4ee269db2cd04830850392f90b"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sg2.svg",
+            "size": 855,
+            "hash": "5e4bfa6128e3de21909bb81e8fb4a091f8722dca2ec68b2907ba60a424890645"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sg3.svg",
+            "size": 1283,
+            "hash": "e6f296a181af669dcb99247dd6f9f4b3d5345da324df06f5f7ed78973731a75d"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sidebar-disabled.svg",
+            "size": 370,
+            "hash": "b694be122c9ca1405d407a65bbaca5a340979300ad8d4843a6a914418a3d0808"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sg1.svg",
+            "size": 1079,
+            "hash": "c89206307fdacb9746cb0b0965519b44f5aaa252e412f1b2a7a534178fa07ddb"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sidebar-left.svg",
+            "size": 650,
+            "hash": "f28319190e3f789dc0df78d190ef5099d757a9fe6bac786fd5cf898141ffa495"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sidebar-right.svg",
+            "size": 871,
+            "hash": "509551cc304816e2556bd44cac227fc038a7ad15ddfa4a297c91e8685b6817e7"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sidebar-slide.svg",
+            "size": 890,
+            "hash": "3cce108b9a27a8bf9ee8868be8abfc6a15dfb01fe57aac7bbfb25b050a054d77"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/sidebar-top.svg",
+            "size": 2179,
+            "hash": "2b46aec035db7daf335e9d89ec55f29e706e038c598a508353caa1b1849d627f"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/st1.svg",
+            "size": 216,
+            "hash": "331572e708893102be738cd9afa69336665cf31b6f75e7acdf8c72d568329ce3"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/st3.svg",
+            "size": 238,
+            "hash": "94d414f726d98a6e44a677480964a0f9b9a000323d5788e2648073129c71ac34"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/st2.svg",
+            "size": 214,
+            "hash": "b9ff4fc6253a0cad49e4069e963867f8a9d0b5b42f9015bf38f4ef7f22092198"
+        },
+        {
+            "type": "file",
+            "name": "images/customizer/st4.svg",
+            "size": 236,
+            "hash": "827854cea89c1448a11c81d972f84eaa2b92e7cdcfd28438b95cef50900f3706"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/az.png",
+            "size": 6980,
+            "hash": "9cacff3fdf4fb5e1a670d703e3dfc1e911eddfc9d323db7d3fc0ad576e8b17c7"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/ce.png",
+            "size": 13785,
+            "hash": "b7bd6ff7d95322aa2681e5a8aa6655de846690e53440904c39a6eeaa8f2d068b"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/ka.png",
+            "size": 6466,
+            "hash": "40a5e1a2f6e73ff303fd2fd788a34f019f61e228f023100fc8e48a16eb1bc9be"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/kg.png",
+            "size": 20294,
+            "hash": "f1695cb656173209c5444c08faeebda97fab78471be645088337a077e595fd5b"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/kz.png",
+            "size": 45067,
+            "hash": "3a32542b426fcb22f4ead382e0e1c4e65ea0f2548638c1dc4a4072393413c3c4"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/ru.png",
+            "size": 2489,
+            "hash": "fbf0e60a1a9c3f1eadf0822d77c4157989e6bfc923d4aa21e21e8e5499d9dd42"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/tj.png",
+            "size": 8985,
+            "hash": "f66ed7051e455a3ada6ee388bec013d52a943a01516ef0f58d2e8992beb81fd7"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/tk.png",
+            "size": 51790,
+            "hash": "b283da99b38000782df8d4753f655c20291a1f42fb0b771d2d818b1e979f5d16"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/ug.png",
+            "size": 8666,
+            "hash": "25ed3033f882a77250264228be7800d1d7280512b5f9abf8c93416d76091d928"
+        },
+        {
+            "type": "file",
+            "name": "images/flags/uz.png",
+            "size": 5935,
+            "hash": "02947598a5a73c33d403e9a1b6859d1521633659917983aa3adc35140afe058e"
+        },
+        {
+            "type": "file",
+            "name": "images/main-rubrik-in-lang/Book-main-during-mfca-3475982.png",
+            "size": 19993,
+            "hash": "61aabf423e4c854106971940183185f895996b3d2f1c0e7817aa9854e6aab104"
+        },
+        {
+            "type": "file",
+            "name": "images/main-rubrik-in-lang/audio-main-during-mfca-3475982.png",
+            "size": 33038,
+            "hash": "a08e45f88eb0cda9cae90255341e4185d7e4d05e1232935517c4b26c97698a91"
+        },
+        {
+            "type": "file",
+            "name": "images/main-rubrik-in-lang/svidet-main-during-mfca-3475982.png",
+            "size": 15643,
+            "hash": "64cc2ab283e2f957ff9ded312f07256932c2c61fc71f470c1089cd1794d7a2a0"
+        },
+        {
+            "type": "file",
+            "name": "images/main-rubrik-in-lang/video-main-during-mfca-3475982.png",
+            "size": 12171,
+            "hash": "1e78b694c722ad5d51d3c7dc615fc78f7e4c0fdac22fbed2c4f5f4b83d6236af"
+        },
+        {
+            "type": "file",
+            "name": "inc/classes/class-sydney-header.php",
+            "size": 18758,
+            "hash": "f0875bfb11ce1dc499ccab3954a0f96307f644db0136fadfd6684bf9f260fd3f"
+        },
+        {
+            "type": "file",
+            "name": "inc/classes/class-sydney-modules.php",
+            "size": 5871,
+            "hash": "9256775e955d29ee74ba07d67e1bed9977c63c75c7441d1329a2a19ea3e61c9b"
+        },
+        {
+            "type": "file",
+            "name": "inc/classes/class-sydney-page-metabox.php",
+            "size": 2333,
+            "hash": "0a1ae9e019a8c9a3f9c22534226d9420fbd4903c256b2d8f20929a3645d7ac95"
+        },
+        {
+            "type": "file",
+            "name": "inc/classes/class-sydney-posts-archive.php",
+            "size": 6545,
+            "hash": "cf4e7af1a7ee23a17571ee282e2ef09a2681800809dab445d326666dd66f304f"
+        },
+        {
+            "type": "file",
+            "name": "inc/classes/class-sydney-svg-icons.php",
+            "size": 30559,
+            "hash": "b39adff4c5babe7ed4438bf3c589fc4f22729ba4320a49eff277f1112d1468ac"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/callbacks.php",
+            "size": 7042,
+            "hash": "8ed2f85da50e269ad381912a27d23a26ea9095724f9fcb0727b8ebf133ee074a"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/customizer.php",
+            "size": 44224,
+            "hash": "4dc6e54a73aec905044c499fe691b5d718b0774157b2e36f9f4e8da33c3f21dc"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/sanitize.php",
+            "size": 4765,
+            "hash": "8ffaf2b94c7de87f2e4cf57320a4c0d9be1b7dd76087a09dd744646d7ca152dd"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/options"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/upsell"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/class-sydney-amp.php",
+            "size": 3000,
+            "hash": "d549b5c803eeb035565efe34b9f59d3693503144be1fabc014a9aaf24c806d76"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/class-sydney-maxmegamenu.php",
+            "size": 3655,
+            "hash": "3ac5fe086889b17eb7baffacc5e270151033c77b7f8ad4dfc7a70f7f086acb5b"
+        },
+        {
+            "type": "folder",
+            "name": "inc/integrations/learndash"
+        },
+        {
+            "type": "folder",
+            "name": "inc/integrations/learnpress"
+        },
+        {
+            "type": "folder",
+            "name": "inc/integrations/lifter"
+        },
+        {
+            "type": "folder",
+            "name": "inc/integrations/wpml"
+        },
+        {
+            "type": "file",
+            "name": "inc/notices/README.md",
+            "size": 4077,
+            "hash": "dd646fa2843ab337235f98c534014dd8649f9700a83089129d8b8036b21620d9"
+        },
+        {
+            "type": "file",
+            "name": "inc/notices/class-sydney-review.php",
+            "size": 4042,
+            "hash": "7fbcd0b6e5ec4c4dc9dcc9b36ab89d5611a92b60bbc2fd5cb8ddefc08e174e41"
+        },
+        {
+            "type": "file",
+            "name": "inc/notices/dismiss-notice.js",
+            "size": 971,
+            "hash": "8701ce09537ab1adacf02d922ee79e3b450c9a66683fee0adc27c9d8d66a0483"
+        },
+        {
+            "type": "file",
+            "name": "inc/notices/persist-admin-notices-dismissal.php",
+            "size": 3280,
+            "hash": "d8d5ceb39285a5a5625391f6aac3daca582c3f4288dbe8e8539fb3a6bddfa80a"
+        },
+        {
+            "type": "file",
+            "name": "inc/notices/persistent.css",
+            "size": 88,
+            "hash": "9d427bb26875a1b0690b314a28ae959625fc0386d40910fe3555167ccf5bdf0d"
+        },
+        {
+            "type": "folder",
+            "name": "inc/onboarding/assets"
+        },
+        {
+            "type": "file",
+            "name": "inc/onboarding/theme-info.php",
+            "size": 16228,
+            "hash": "c6b651b04cd6578b98ba4e62ba5ff9b1853ef9fe2f7d35b8eef9d90d60c67380"
+        },
+        {
+            "type": "folder",
+            "name": "inc/onboarding/plugins"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/best-wordpress-speed.jpg",
+            "size": 56070,
+            "hash": "b8559be18050d2c1bcdeea3a514a79ecc0cb296be98ab568a68e2542c2c450ae"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/cloudflare@2x.png",
+            "size": 56094,
+            "hash": "ea42743878970c994f7ee239d2ac38f46449e5e5660c2d22e23489bd75cc87e4"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/fastest-wordpress-hosting.jpg",
+            "size": 61098,
+            "hash": "ae7f6d4243a766e2eeb6bfbeca072b79adce2198eac50ebca0763c074657e524"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/logo.svg",
+            "size": 2660,
+            "hash": "1bf7c33156dabd5abc55ebe704aa72894fc860ffcd69a1a0bf2034c8c4a9b899"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/pattern-1@2x.png",
+            "size": 1931,
+            "hash": "652f609e05e9b00d283da7d7e76df4f6325fc08610577f7543422fb34d4c4ba9"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/pattern-2@2x.png",
+            "size": 891,
+            "hash": "fe43b97f6c55ddfaa558754efad87b06679eaf649009f95fd967c4da8a057289"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/stars@2x.png",
+            "size": 688,
+            "hash": "0fcfc8953be2ac772ac4518aef7a75244963ef126c76493d2c20204543814121"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/welcome-banner@2x.png",
+            "size": 131276,
+            "hash": "02a566b5e8c443ab1bac40f2c9c7ae8d00ad3c44c6b99a78e4708a892d1f25c9"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/wp-fastest-cache@2x.png",
+            "size": 340197,
+            "hash": "da21018a19799ee01169ffe7761d96d25876ddaa9dbae3fa8ca62710a0d703a7"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/wp-rocket.jpg",
+            "size": 35285,
+            "hash": "9d7ff30d30529371de89e7787df90c7e566aab5fbfb6f904aeb65a0b7085b645"
+        },
+        {
+            "type": "file",
+            "name": "theme-dashboard/images/wp-rocket@2x.png",
+            "size": 57474,
+            "hash": "1a783d2a5fa6ed49714c39d782c87e6ea470f3f5b122b90be94acf6212de869e"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/ClassLoader.php",
+            "size": 13459,
+            "hash": "e4fc4d4487a4d766d3ef14606fa0d8ff09dd7f3f0885425803d7aa7fc68e2c3d"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/LICENSE",
+            "size": 1070,
+            "hash": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/autoload_classmap.php",
+            "size": 147,
+            "hash": "894fbd23013969829316a4c244401c65355ee4d48440f2d533fb517c693b717d"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/autoload_namespaces.php",
+            "size": 149,
+            "hash": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/autoload_psr4.php",
+            "size": 697,
+            "hash": "c74ee68b69c0c768142991af62551e27939e60e91ae82dd07e288512bd5bbfff"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/autoload_real.php",
+            "size": 1824,
+            "hash": "e300049aa561c326983addde1ad80d7e29dac7eba034e3522a302ca1f8d3ca62"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/autoload_static.php",
+            "size": 1594,
+            "hash": "1097e3b72ad9588fba00edcdb3b395c5f622c1249d3398c439ac3f236f81de87"
+        },
+        {
+            "type": "file",
+            "name": "vendor/composer/installed.json",
+            "size": 7974,
+            "hash": "428a06807930b1e87d6e1bce56cbca9f17400fa33b66bd04a2fbfa2df9d9fe18"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-base"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-generic"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-slider"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-sortable"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/url-getter"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/cart/proceed-to-checkout-button.php",
+            "size": 964,
+            "hash": "d22dc1c5a6e9f2f1c8636889d01ecabc701d5949991b7e9130ff29822b7e4dd4"
+        },
+        {
+            "type": "file",
+            "name": "vendor/wptt-webfont-loader/wptt-webfont-loader.php",
+            "size": 16606,
+            "hash": "e95e28fdf714ba45171914f6e35064544737db34e1de1b5cb2bc31d7bc3cd8f0"
+        },
+        {
+            "type": "folder",
+            "name": "woocommerce/css/src"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/css/wc.css",
+            "size": 103962,
+            "hash": "38d569ad2d6ea4ad4274e683ff077000eaa427fcd9781de71724f42c490b8510"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/css/wc.min.css",
+            "size": 91951,
+            "hash": "2752658dfae349875f82d6164bcdf6fb1f6957f054109ff8d7fd6152338c5cd9"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/WooCommerce.eot",
+            "size": 19564,
+            "hash": "0ac5724303981017f0d00911126a214d79f1bb79a3932fddaf5a7d96e79f5bdb"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/WooCommerce.svg",
+            "size": 47558,
+            "hash": "5969930cf8257a6dbd73349fb12e973e08600dc61418701c34e986df1503ccb2"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/WooCommerce.ttf",
+            "size": 19384,
+            "hash": "3aa70de95fc9ee022923795f9a957fe0ca361624e01d9d816e8fee0176c699fb"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/WooCommerce.woff",
+            "size": 19460,
+            "hash": "edcddd223bf2ab7dc02f52a23059519fd8006d2443dd0e28dd6dde431a867140"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/star.eot",
+            "size": 1676,
+            "hash": "3cf20b4f76287580fcab444ddf67b5ecb4cc4140c35706db15af34ba983bacff"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/star.svg",
+            "size": 1391,
+            "hash": "a71e4b1a8a13427e47e9ee7f95acb3c2911bdf3f6fd0ce89a8789775aee0dfcd"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/star.ttf",
+            "size": 1512,
+            "hash": "f8013885c947a7d72df4397ddbbe611fb9ac251622cf658e60ceb25a83c23c8d"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/fonts/star.woff",
+            "size": 1304,
+            "hash": "d87af7a2528beb59a990e0414df87b4e4115f77f3a4a750f6616ff189b70345a"
+        },
+        {
+            "type": "folder",
+            "name": "woocommerce/single-product/add-to-cart"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-brands-400.eot",
+            "size": 134346,
+            "hash": "407a9723fc717c94e287496080d773e18e29c3cac49e2630172343c65c0864a8"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-brands-400.svg",
+            "size": 747545,
+            "hash": "679b5a5216bbdf913cc22d6ae44778c1ef975ee387a6c4c5de87e75d19a22232"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-brands-400.ttf",
+            "size": 134040,
+            "hash": "06f4d00923ea24697df5df0b92984175991d8bd25776a02d531bb401e393ec42"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-brands-400.woff",
+            "size": 90060,
+            "hash": "aff76e5c986f295d4bc6f8142a78e2a31888b101c2d025db89f79c75f64fd90b"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-brands-400.woff2",
+            "size": 76764,
+            "hash": "43c072c16c9ee6d67acdfa6c6d6685ff1e74eb4237b7cc3c1348ab1c108b26af"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-regular-400.eot",
+            "size": 34034,
+            "hash": "cf83ffb8cf0023bd439dfdd5d02f1954b6ee027e85897d6cfc5f90bbca9ec1d2"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-regular-400.svg",
+            "size": 144714,
+            "hash": "2326849b6c3dfa217a0e9ecaec9553c910a4e2987c87315c85073d2b95a484f3"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-regular-400.ttf",
+            "size": 33736,
+            "hash": "c651b8a67d3193206f622c3c3b0fbca4a2f2727108c4212b52c1e2a2e84c9b31"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-regular-400.woff",
+            "size": 16276,
+            "hash": "14c9db4ff87fde08f67b0a69dd594bab6d87174812a0dbd34c59833bfed8cc0e"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-regular-400.woff2",
+            "size": 13276,
+            "hash": "8afc6e5e842baab16010c2ce6fcf48ec4ded8e1579a37c1f1bc027e120d04951"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-solid-900.eot",
+            "size": 203030,
+            "hash": "75a761159ae266c5332a4f266e07a5543712ffb76ee0260b07782195c04dc364"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-solid-900.svg",
+            "size": 918991,
+            "hash": "fa498fb2596a5235c5c86d7b68a7fbe76e9855c01af4b0e5ab41c41047c648e0"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-solid-900.ttf",
+            "size": 202744,
+            "hash": "3d06af1f31cd83ace7a265a014b8fb5dee15770ecac8f7a55555190e627e03c2"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-solid-900.woff2",
+            "size": 78196,
+            "hash": "d0b4256abed72481585662971262eabee345c19f837af00d7ce24239d3b40eef"
+        },
+        {
+            "type": "file",
+            "name": "fonts/font-awesome-v5/webfonts/fa-solid-900.woff",
+            "size": 101652,
+            "hash": "74edc18b67c487e32f181719fdb347e2e77020744651f446e9acd7bd6821e2e7"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/accordion"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/class_sydney_divider_control.php",
+            "size": 586,
+            "hash": "dbd496f031d93ff161314e04c698097101abe84d6ee08b1650c94886a0121a40"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/alpha-color"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/class_sydney_tab_control.php",
+            "size": 981,
+            "hash": "be1c7f32fc4425f46620ffb02c1c73ed076a4c1251b528bf6d756fee8510112b"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/class_sydney_text_control.php",
+            "size": 962,
+            "hash": "dbdf1bc903f7592c65bd1318ddd5e1d46b915e5a8cd9c6e3e1f3e05ac6ffef81"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/class_sydney_upsell_message.php",
+            "size": 1137,
+            "hash": "215305968d6e3dda2ceb11094fafd832b8f7de94e72efa7b02d2c1b702262deb"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/control-checkbox-multiple.php",
+            "size": 1570,
+            "hash": "00cdeec2f91612138a1e651a98e66da85a189e04cd7cebe554b327276ab6a787"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/display-conditions"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/multiple-select"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/radio-buttons"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/radio-images"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/responsive-slider"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/repeater"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/toggle"
+        },
+        {
+            "type": "folder",
+            "name": "inc/customizer/controls/typography"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/blog-single.php",
+            "size": 13943,
+            "hash": "a2f81bab843963417e685b84c714ccbee63261a6554fd2be38228dab24b0994a"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/blog.php",
+            "size": 20022,
+            "hash": "8e9b240b940b161dc6b513c0698ecd5cef377a83d259ff14f6ebb264da8a3382"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/colors.php",
+            "size": 12846,
+            "hash": "04c6fe145d8300877bef8646e49eed84bd6a4ff6d87af6e4b03321481effb188"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/cpt-panels.php",
+            "size": 1080,
+            "hash": "52d43d9f99f56d26a8aa2475ba611e51b01318388cf420182854049ff23d8cf6"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/footer.php",
+            "size": 23371,
+            "hash": "c6204970fcad7d74217b236004590b6c287f0aef127b70f345e651427ebc7d39"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/general.php",
+            "size": 21824,
+            "hash": "c51b15228daaed3a0948464e794dd5c1e5cc2bf3a3dccd453709efcf45674a18"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/header-mobile.php",
+            "size": 12604,
+            "hash": "f4a64543fde613e3898e16f21a1227876f202a87873c11ea108296a653e7f5b9"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/header.php",
+            "size": 31676,
+            "hash": "a7f9ab8e0206fbbd22f49706b5adef0cc9e36eb55e76aed18064652d379bd463"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/layouts.php",
+            "size": 3981,
+            "hash": "b67c3430a112ea435455a3c06d6d5c1f93044a5e39514240ea1a8603df550e6f"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/performance.php",
+            "size": 693,
+            "hash": "55c8e2f1f6c51130b55a81f66f2f3c18e938bf5240bc546473646ca56b86ceb0"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/typography.php",
+            "size": 16789,
+            "hash": "49f9532aefd5f8b8bed97e9c6d9a9977e44c560d8eeaf3cf84bb924bdbd9d223"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/upsell.php",
+            "size": 3202,
+            "hash": "c34c9c0535b052f12a109dbe26c3ab45af277a11ee186521b41e9b8782d7620e"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/woocommerce-single.php",
+            "size": 10591,
+            "hash": "d00144066db4f88d52e7c75fbaa40d5f12b476fd9df38f677bfecc8cf5602e2e"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/options/woocommerce.php",
+            "size": 27919,
+            "hash": "1ba3da7a1dc13f2cb535cccec61f16656b98130f7eab3711225d011bdffbf135"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/upsell/class-customize.php",
+            "size": 2444,
+            "hash": "02a34573d736e2c8a91b92ec703ca44ea5a1cd8e3fe0c892e0d0fb6981804337"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/upsell/customize-controls.css",
+            "size": 829,
+            "hash": "23c7b61c5dcd93ee62cb455ef015eeaccc5b7c299f0d9850cb30a84523e17298"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/upsell/customize-controls.js",
+            "size": 324,
+            "hash": "e2b1a199222df9539518acaca28258971496b2d0fd50f3204619ffd236986e5b"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/upsell/section-pro.php",
+            "size": 1377,
+            "hash": "b12c62216ebd4a2a68ebed5d38416e414d99c2b026f82dfcc5935f9924dc7b2b"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/learndash/class-sydney-learndash.php",
+            "size": 3266,
+            "hash": "1957a6e341625d100445a88a31ae908403f1a0e773637c78bd1da7f6d5261851"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/learndash/customize.php",
+            "size": 3014,
+            "hash": "fd8d5cb50f14767ab92020375ac8123f8826f3090a626232b478912521b5f0da"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/learnpress/class-sydney-learnpress.php",
+            "size": 2290,
+            "hash": "ccf28f73af9de0bfe5205c93b122326fecd2f327cf1879ec826d905e1ff1c116"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/learnpress/customize.php",
+            "size": 1844,
+            "hash": "368b7e1c4daf86c34e122a71062125097e851399e8dbdc77369d08eb05d01356"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/learnpress/learnpress.css",
+            "size": 411,
+            "hash": "102607f7bc76f92d7e4d386954f86620b52513959fe35ad9393ef677009161a1"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/learnpress/learnpress.min.css",
+            "size": 2327,
+            "hash": "ad8c04b411f3bf07eee75431b04b79500d733e8cdf09a71655decbd3bcd4c73e"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/lifter/class-sydney-lifterlms.php",
+            "size": 6960,
+            "hash": "ae1d5b672c498bb692a954f85305e00fd1bc7dcce7608ef26c3e351de784b2f7"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/lifter/customize.php",
+            "size": 10170,
+            "hash": "a614395da3562c66f2d77b9e7492a60a7c5133e9ebb858491c34bc03960659c1"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/lifter/lifter.css",
+            "size": 2759,
+            "hash": "042c5309b0a72cc638974e6be93fabf8129ec82e698a68c9e0fed0e903ee9911"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/lifter/lifter.min.css",
+            "size": 2327,
+            "hash": "ad8c04b411f3bf07eee75431b04b79500d733e8cdf09a71655decbd3bcd4c73e"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/wpml/class-sydney-wpml-employee-carousel.php",
+            "size": 1067,
+            "hash": "0b094c734a1f97c54a62cf5e03fefcac399476496a0545763fccb2176aca5109"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/wpml/class-sydney-wpml-portfolio.php",
+            "size": 1050,
+            "hash": "e43d3b00c1d8c935f106a6b2350b187ed9c6f065e9ea7e0a01153e41e5b08ca5"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/wpml/class-sydney-wpml-testimonials.php",
+            "size": 1110,
+            "hash": "d1356c7c70175f9624aceb9e3f9e67cbf698eded6c3e2c3fc1b1102727525481"
+        },
+        {
+            "type": "file",
+            "name": "inc/integrations/wpml/class-sydney-wpml.php",
+            "size": 1608,
+            "hash": "01c13487dd2d33c75dc3dbd1e7f5ffef9f97b8a16950eee58d12b34950e18dab"
+        },
+        {
+            "type": "file",
+            "name": "inc/onboarding/assets/info-page.css",
+            "size": 2536,
+            "hash": "dd1446ae1ed915c21d9adafdb5098fe9fbb6318d060cdcfb19dcffe20f448703"
+        },
+        {
+            "type": "file",
+            "name": "inc/onboarding/assets/info-page.js",
+            "size": 896,
+            "hash": "8b7bc394fb6e78b491949af78db1e040ebc0946e8c79c7de41841ba6433e73f9"
+        },
+        {
+            "type": "file",
+            "name": "inc/onboarding/plugins/class-sydney-recommended-plugins.php",
+            "size": 4627,
+            "hash": "3dc10241bde43a3badc77fc35a2056dcb0a47d6aa776dbf09d17db97a2ddb2b6"
+        },
+        {
+            "type": "file",
+            "name": "inc/onboarding/plugins/plugin-install.js",
+            "size": 2490,
+            "hash": "1f373698003382320332c88ce730cab8ca2bc4f8d3cb8eacaf01a60eb1a076aa"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-base/LICENSE",
+            "size": 1072,
+            "hash": "9857ec93bd8f86954c4fee318143667af0d0c763b11d95aee21b04388e14f500"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-base/README.md",
+            "size": 217,
+            "hash": "e15317da4b6cca767a676414f2c1f8e977a9305eeefdbfa9b0dc4a8efb80afa9"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-base/composer.json",
+            "size": 661,
+            "hash": "b4445f307a40b6d20ab069e8708fae4119058306ebee616e702bfcfdb41fcea9"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-base/src"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/LICENSE",
+            "size": 1072,
+            "hash": "9857ec93bd8f86954c4fee318143667af0d0c763b11d95aee21b04388e14f500"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/README.md",
+            "size": 1549,
+            "hash": "6744149786083be910aa50c01ee2104e1dd0d3ea747da0810f1f3b086db55e97"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/composer.json",
+            "size": 742,
+            "hash": "24ff440e415c3d95b9907b223b4043121fab81ef6d9a411d1b127e9467aa2d96"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-generic/src"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-slider/dist"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-slider/src"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/Gruntfile.js",
+            "size": 513,
+            "hash": "6fcbd23443200f859ceaa5d354c31cb4a322de7aa6857661f4766556540e186e"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/LICENSE",
+            "size": 1072,
+            "hash": "9857ec93bd8f86954c4fee318143667af0d0c763b11d95aee21b04388e14f500"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/README.md",
+            "size": 2063,
+            "hash": "865cae50b80b4224b9b81b7a11686417e6748d58421d156d098b35e5bdad3e8e"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/composer.json",
+            "size": 762,
+            "hash": "8a5dc86500bdbeb7ac535c8fbe91c933793219469c807b43900509d04ded0ffd"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-sortable/src"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/url-getter/src"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/css/src/wc.scss",
+            "size": 101004,
+            "hash": "5a174a7a0d2ee93f5522e80f2f0abcb908a3a706ce20d41d820b181223f63324"
+        },
+        {
+            "type": "file",
+            "name": "woocommerce/single-product/add-to-cart/simple.php",
+            "size": 2103,
+            "hash": "d2f6ce41097ccdeffe6c08fdc066a402ca81df32147a14b4e6f520bd044bed44"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/accordion/accordion.css",
+            "size": 1270,
+            "hash": "51a2754228006164e4815b98aa78003efc2cc76892ba43cb8adcccbfa90ce560"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/accordion/accordion.js",
+            "size": 2969,
+            "hash": "6c735c2b2325c1f48deeb4dca9943f4c05277c5e40b0076907c8e2e57cf7dbcb"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/accordion/class_sydney_accordion_control.php",
+            "size": 554,
+            "hash": "4e8e62dd19a107019c7d7dbcf08b45849babaa81291940eafe7f1c25cbbe8cc6"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/alpha-color/class_sydney_alpha_color.php",
+            "size": 1933,
+            "hash": "de6d1f28894427f614786fe5003eb96e6ffe5e970a1f29b419607567b1d15503"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/display-conditions/ajax-callback.php",
+            "size": 6295,
+            "hash": "cc6334c7ff0ea252bce0e5d824ce4d38fdc1a3259e09990f2552241dcda354e0"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/display-conditions/class_sydney_display_conditions_control.php",
+            "size": 3435,
+            "hash": "b26136ef5dc7b66b330f7830847df268e2a3d9155385601301d6b4b9fd4b3be4"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/display-conditions/display-conditions-script-template.php",
+            "size": 11463,
+            "hash": "387e1ca2887598788f38265a3e123d2b97b5f27f01eab16a1a7504d58cd1e6ae"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/multiple-select/class-control-multiple-select.php",
+            "size": 3025,
+            "hash": "55bbc4a5a41e498d2809dbbc269a8e4d0f59ac6e6fbb19e2a15fa4b222c70e69"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/multiple-select/multiple-select.css",
+            "size": 148,
+            "hash": "4273c058145338a833a73172a029508290b4c88ff9f980f087c474890f98618d"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/multiple-select/multiple-select.js",
+            "size": 441,
+            "hash": "ae33cb6e717bb2afb99f747f37f532ad2bb7760c8ee6a1b414f4cca7963b518e"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/radio-buttons/class_sydney_radio_buttons.php",
+            "size": 1568,
+            "hash": "c4c9a62802abc394c20ea425dd4b5e5841d46b6c902d7b31270e763ee4c27ddc"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/radio-images/class_sydney_radio_images.php",
+            "size": 3421,
+            "hash": "d2e93f6437992ac2d8942f07e55c39e1447d7ae82167d90a5266256bcd83b84e"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/responsive-slider/class_sydney_responsive_slider.php",
+            "size": 3460,
+            "hash": "7c422c63f6f5292ebb649763983265dbf4d5bc506a90e1fd2c338c6225ef97b2"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/repeater/class_sydney_repeater.php",
+            "size": 1864,
+            "hash": "a5e8c4e096399bb8a57dc17c17d29525b8f6a966fa0fc8cb71b958114013d633"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/repeater/script.js",
+            "size": 3467,
+            "hash": "808f08a75ce876018a594ca9244b4b1ce711689c9f146a4f3099c9b394b2c1ce"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/repeater/styles.css",
+            "size": 727,
+            "hash": "7332354640791e0091b3d74d072c642a828382bd6fc0355477523ad2a64ecab7"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/toggle/class_sydney_toggle_control.php",
+            "size": 1092,
+            "hash": "1fbf9f2e30b9a3b59a76e410729a7c9d8249b9db2dbe9f3f38f8a6d1e16341f8"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/google-fonts-alphabetical.json",
+            "size": 86103,
+            "hash": "690484459ae5989fd1b2c69263f693aadd7894fa3bab2b9632f9c0d8eb701728"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/class_sydney_typography.php",
+            "size": 6093,
+            "hash": "34a3cff8728a1d672af0f6414a3c07ddcb177e31b229de8374bec05160441095"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/select2.css",
+            "size": 17604,
+            "hash": "c6ac55e050e3e6db253b3e8c575de97675e07fade527056269d9fffdc88a988b"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/script.js",
+            "size": 4464,
+            "hash": "7110feae0417735b12baba034381e11b6634169750e9b323db059a40262c6aa5"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/select2.full.min.js",
+            "size": 79212,
+            "hash": "5c6fdab80cb86a279695dccc226a1fac50e2c922bea70242edaa28f52b7bad2d"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/select2.js",
+            "size": 166153,
+            "hash": "f5f1761805649d2bd4eaace4ec1d960eb06baa9384f026c0027ff4aa4af5cfc5"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/select2.min.css",
+            "size": 14966,
+            "hash": "15d6ad4dfdb43d0affad683e70029f97a8f8fc8637a28845009ee0542dccdf81"
+        },
+        {
+            "type": "file",
+            "name": "inc/customizer/controls/typography/styles.css",
+            "size": 287,
+            "hash": "2c77ec812b6566306e324cab4059e31f537614be6e31c32c340ed470c39d2414"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-base/src/Control"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-base/src/assets"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-generic/src/Control"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-generic/src/Field"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-generic/src/assets"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-slider/dist/main.js",
+            "size": 89155,
+            "hash": "1b6ce16c84f614df1684c8d8e3c92f37790cf89fb8eeafabfaf336f962b24ce4"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-slider/src/Control"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-slider/src/Field"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-slider/src/styles.css",
+            "size": 1601,
+            "hash": "cf5b699705d2ebbd16b7fcd670599fd171bc2115358c08fe86f90f816302cdce"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-sortable/src/Field"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-sortable/src/Control"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-sortable/src/assets"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/url-getter/src/URL.php",
+            "size": 4227,
+            "hash": "8fb617d706cf725247244285ed1221a44b11b5a177f13b0a3d02fcdb4bb6e629"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-base/src/Control/Base.php",
+            "size": 4960,
+            "hash": "80be890b8502f79055936c0a0ab78a748a06985fff1a2157977d6ad5294e131b"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-base/src/assets/scripts"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/src/Control/Generic.php",
+            "size": 2525,
+            "hash": "76c168073b3cb2b52ffce067a72278bef5f2ae738003161404bc28f2f8101dc4"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/src/Field/Number.php",
+            "size": 2499,
+            "hash": "fb657841cc4a4c242ef029b4c6e69452344d5b93f4c4ff16466074235bb9cb3c"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/src/Field/Generic.php",
+            "size": 2182,
+            "hash": "6f304ffda51167f3ec3cde6335bf34835fb046b98ada9c1fb7ad718824318a50"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/src/Field/Text.php",
+            "size": 1808,
+            "hash": "ee521c0faa3d38ce5b531e7b16d3d27b14c9e34706e1fa9a8d0ae11026435e9f"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/src/Field/Textarea.php",
+            "size": 1137,
+            "hash": "01617da0497193d9d53474ad1ab3afa641c1b7744c500b7fb5b2e4b668c181bf"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/src/Field/URL.php",
+            "size": 1081,
+            "hash": "e447bd77681cebb61effab1e12a995d210485641de4f90a3f1757f4f3d6c7002"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-generic/src/assets/scripts"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-slider/src/Control/Slider.php",
+            "size": 2123,
+            "hash": "077561c33d875f36cb51cbcf8e75459a83d27ac57eccbe8f9c97a4f80b7f76fb"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-slider/src/Field/Slider.php",
+            "size": 2049,
+            "hash": "5b431723f35abb1917598c38fa8a0d1a5ee85f882f26fba8db76993d4bb2a26a"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/src/Field/Sortable.php",
+            "size": 2311,
+            "hash": "35708d0adb66bba65a67150d118ccdfcf6eb00f51c3c6e6826194f859196fb66"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/src/Control/Sortable.php",
+            "size": 2738,
+            "hash": "711234ee382b14b4babed40f5028404f05b6fbe0038f75ec61d386cd4f72ab3f"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-sortable/src/assets/scripts"
+        },
+        {
+            "type": "folder",
+            "name": "vendor/kirki-framework/control-sortable/src/assets/styles"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-generic/src/assets/scripts/control.js",
+            "size": 345,
+            "hash": "22993de20083bb17f62fb8c1a560c8a53d9dd0ab72809eaccc57af9ebcae1ba3"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-base/src/assets/scripts/dynamic-control.js",
+            "size": 7343,
+            "hash": "88ca6119c98803c22e7964225a39828f0358023bd55687abb02d9663eabcdeb7"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/src/assets/scripts/control.js",
+            "size": 1191,
+            "hash": "ec9725357e0b531f61562fdcf8a0aca814e794ce31c9f2cbd583836acf32c2a3"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/src/assets/styles/style.css",
+            "size": 553,
+            "hash": "4df5845975422867b973425a1c7936bb6639d6ad4ea65a46eeebe81c52fadb3d"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/src/assets/styles/style.scss",
+            "size": 457,
+            "hash": "5df05dd3f669637ecf0ad77f0ec2ed1e367a5c338ce4e4747ffb50c538629594"
+        },
+        {
+            "type": "file",
+            "name": "vendor/kirki-framework/control-sortable/src/assets/styles/styles.css",
+            "size": 627,
+            "hash": "f93c25f7e3a63514a8afa2e183f94507534ace19d99208f39a116bfd8e9b4cf2"
+        }
+    ]
+}
