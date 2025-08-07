@@ -13,7 +13,7 @@ get_header(); ?>
 			<div class="entry-content">
 				<div class="mfca-main container">
                <div class="mfca-main__row">
-                  <a href="./c/az-book/" class="mfca-main__item">
+                  <a href="./c/az/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/az.png" alt="">
                         </div>
@@ -21,7 +21,7 @@ get_header(); ?>
                            Azərbaycan
                         </div>
                   </a>
-                  <a href="./c/kz-book/" class="mfca-main__item">
+                  <a href="./c/kz/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/kz.png" alt="">
                         </div>
@@ -29,7 +29,7 @@ get_header(); ?>
                            Казах
                         </div>
                   </a>
-                  <a href="./c/ka-book/" class="mfca-main__item">
+                  <a href="./c/ka/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/ka.png" alt="">
                         </div>
@@ -37,7 +37,7 @@ get_header(); ?>
                            Қорақалпоқ
                         </div>
                   </a>
-                  <a href="./c/kg-book/" class="mfca-main__item">
+                  <a href="./c/kg/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/kg.png" alt="">
                         </div>
@@ -45,7 +45,7 @@ get_header(); ?>
                            Кыргыз
                         </div>
                   </a>
-                  <a href="./c/ce-book/" class="mfca-main__item">
+                  <a href="./c/ce/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/ce.png" alt="">
                         </div>
@@ -53,7 +53,7 @@ get_header(); ?>
                            Нохчи
                         </div>
                   </a>
-                  <a href="./c/ru-book/" class="mfca-main__item">
+                  <a href="./c/ru/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/ru.png" alt="">
                         </div>
@@ -61,7 +61,7 @@ get_header(); ?>
                            Русский
                         </div>
                   </a>
-                  <a href="./c/tj-book/" class="mfca-main__item">
+                  <a href="./c/tj/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/tj.png" alt="">
                         </div>
@@ -69,7 +69,7 @@ get_header(); ?>
                            Тоҷик
                         </div>
                   </a>
-                  <a href="./c/tk-book/" class="mfca-main__item">
+                  <a href="./c/tk/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/tk.png" alt="">
                         </div>
@@ -77,7 +77,7 @@ get_header(); ?>
                            Türkmen
                         </div>
                   </a>
-                  <a href="./c/uz-book/" class="mfca-main__item">
+                  <a href="./c/uz/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/uz.png" alt="">
                         </div>
@@ -85,7 +85,7 @@ get_header(); ?>
                            Ўзбек
                         </div>
                   </a>
-                  <a href="./c/ug-book/" class="mfca-main__item">
+                  <a href="./c/ug/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/ug.png" alt="">
                         </div>
