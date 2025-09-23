@@ -19,7 +19,7 @@ generate_wp_keys
 
 # Start containers
 echo "Starting Docker containers..."
-docker-compose up -d
+docker compose up -d
 
 echo "Setup complete! Your WordPress site is now available at http://localhost:8080"
 echo "phpMyAdmin is available at http://localhost:8081"
