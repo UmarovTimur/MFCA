@@ -1156,6 +1156,38 @@ function render_post_slider( $posts, $slider_id = 'customPostSlider' ) {
 
     ob_start();
     ?>
+		<style>
+			.custom-slider {
+					display: flex; /* Или grid, если элементы должны быть в несколько колонок */
+					overflow-x: scroll; /* Обязательно для горизонтального скролла */
+					cursor: grab; /* Изменяем курсор для интерактивности */
+					-webkit-overflow-scrolling: touch; /* Улучшает скроллинг на iOS */
+					white-space: nowrap; /* Важно, чтобы карточки не переносились на новую строку */
+					/* Дополнительные стили для внешнего вида */
+					padding-bottom: 10px; /* Чтобы скроллбар не перекрывал контент */
+			}
+
+			.custom-slider.dragging {
+					cursor: grabbing;
+			}
+
+			.slider-card {
+					flex-shrink: 0; /* Важно, чтобы карточки не сжимались */
+					display: inline-block; /* Или просто flex-basis с шириной */
+					width: 250px; /* Пример ширины карточки */
+					margin-right: 15px; /* Отступы между карточками */
+					/* Дополнительные стили для карточек */
+			}
+
+			/* Скрываем стандартный скроллбар (по желанию) */
+			.custom-slider::-webkit-scrollbar {
+					display: none;
+			}
+			.custom-slider {
+					-ms-overflow-style: none; /* IE и Edge */
+					scrollbar-width: none; /* Firefox */
+			}
+		</style>
     <div class="custom-slider" id="<?php echo esc_attr($slider_id); ?>">
         <?php foreach ( $posts as $post ) : ?>
             <a href="<?php echo get_permalink($post); ?>" class="slider-card">
@@ -1200,6 +1232,7 @@ function render_post_slider( $posts, $slider_id = 'customPostSlider' ) {
         });
     });
     </script>
+		
     <?php
     return ob_get_clean();
 }
