@@ -201,8 +201,6 @@ get_header(); ?>
 
 	<div id="primary" class="content-area <?php echo esc_attr( $sidebar_pos ); ?> <?php echo esc_attr( apply_filters( 'sydney_content_area_class', $width ) ); ?>">
 
-		<?php sydney_yoast_seo_breadcrumbs(); ?>
-
 		<main id="main" class="post-wrap" role="main">
 
         <?php post_types_menu_header() ?>
