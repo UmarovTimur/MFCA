@@ -172,6 +172,20 @@ get_header(); ?>
             line-height: 1.3;
             font-weight: bold;
         }
+
+        .srp_player_boxed {
+            background-color: transparent !important;
+			padding: 5px 10px !important;
+        }
+		
+		.srp_meta.srp_meta_0.album-title {
+            display: none !important;
+        }
+		
+		.iron-audioplayer[data-playertemplate="skin_boxed_tracklist"] .sr-playlist-item, .iron-audioplayer[data-playertemplate="skin_boxed_tracklist"]:not(.srp_tracklist_grid) .playlist {
+    		padding: 3px !important;
+		}
+		
     </style>
 
 
