@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'u684340623_mfca' );
 
 /** Database username */
-define( 'DB_USER', 'wp_user' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'wp_password' );
+define( 'DB_PASSWORD', 'root_password' );
 
 /** Database hostname */
 define( 'DB_HOST', 'db' );
