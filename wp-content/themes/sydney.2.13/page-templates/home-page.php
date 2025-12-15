@@ -45,14 +45,7 @@ get_header(); ?>
                            Кыргыз
                         </div>
                   </a>
-                  <a href="./c/ce/" class="mfca-main__item">
-                        <div class="mfca-main__image">
-                           <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/ce.png" alt="">
-                        </div>
-                        <div class="mfca-main__text">
-                           Нохчи
-                        </div>
-                  </a>
+
                   <a href="./c/ru/" class="mfca-main__item">
                         <div class="mfca-main__image">
                            <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/ru.png" alt="">
@@ -85,14 +78,6 @@ get_header(); ?>
                            Ўзбек
                         </div>
                   </a>
-                  <a href="./c/ug/" class="mfca-main__item">
-                        <div class="mfca-main__image">
-                           <img src="<?php echo esc_html($url); ?>/wp-content/themes/sydney.2.13/images/flags/ug.png" alt="">
-                        </div>
-                        <div class="mfca-main__text">
-                           Уйғур
-                        </div>
-                  </a>
                </div>
              </div>
 			</div><!-- .entry-content -->
@@ -104,8 +89,8 @@ get_header(); ?>
         justify-content:center;
    }
    .mfca-main {
-      margin:0 0 0 -10px;
-      width:calc(100% + 20px);
+      /* width:calc(100% + 20px); */
+      padding: 0 !important;
    }
    .container {
       max-width: 1170px;
@@ -115,20 +100,25 @@ get_header(); ?>
       flex-wrap: wrap;
       justify-content: center;
       display: flex;
-      margin-left:-20px;
+      /* margin-left:-20px; */
+      padding: 50px;
    }
    .mfca-main__item {
       display: flex;
       flex-direction: column;
-      flex:0 0 20%;
-      padding: 0px 10px;
+      flex:0 0 25%;
+      padding: 0px 5px;
       text-decoration: none;
       margin-bottom: 20px;
       min-width: 182px;
    }
    @media screen and (max-width:950px) {
+      .mfca-main__row {
+         padding: 25px 0px;
+      }
       .mfca-main__item {
          flex:0 0 25%;
+
       }
    }
    @media screen and (max-width:768px) {
@@ -139,12 +129,12 @@ get_header(); ?>
    @media screen and (max-width:565px) {
       .mfca-main__item {
          margin-bottom: 20px;
-         padding: 0px 5px;
          flex:0 0 50%;
          min-width: 100px;
       }
       .mfca-main__row {
-         margin-left: -15px;
+         padding-right: 5px;
+         padding-left: 5px;
       }
    }
 

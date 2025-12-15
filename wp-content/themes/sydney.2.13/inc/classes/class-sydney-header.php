@@ -354,7 +354,7 @@ if ( !class_exists( 'Sydney_Header' ) ) :
 		}	
 
 		/**
-		 * Mobile: layout 3
+		 * Mobile: layout 3п
 		 */		
 		public function header_mobile_layout_3() {
 			$container = get_theme_mod( 'header_container', 'container-fluid' );
