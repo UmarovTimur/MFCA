@@ -1,7 +1,7 @@
 # Название workflow, которое будет отображаться в GitHub
 name: Deploy Theme to FTP
 
-# Триггер: запускать этот workflow при каждом push в ветку 'main'
+# Триггер: запускать этот workflow при каждом push в ветку 'release'
 on:
   push:
     branches:
@@ -39,6 +39,6 @@ jobs:
           # Убедитесь, что 'sydney.2.13' - это точное имя вашей папки с темой.
           local-dir: ./wp-content/themes/sydney.2.13/
 
-          # Папка на сервере, куда будут загружены файлы.
+          # ка на сервере, куда будут загружены файлы.Пап
           # Темы WordPress должны находиться в wp-content/themes/
           server-dir: wp-content/themes/sydney.2.13/
