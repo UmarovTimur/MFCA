@@ -1,7 +1,7 @@
 services:
   # WordPress service
   wordpress:
-    image: wordpress:6.8.1
+    image: wordpress:7.0.0
     restart: always
     depends_on:
       - db
