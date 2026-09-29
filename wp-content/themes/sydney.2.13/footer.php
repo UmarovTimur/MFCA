@@ -32,7 +32,6 @@
 								<a href="https://kitobook.com/uzmusic/">Uzmusic</a>
 							</div>
 						</div> 
-						</ul>
 						<span class="footer__subtext" >AZ E-Kitabxana - Azərbaycan dilində kitablar / KZ Кітапхана - Қазақ тіліндегі кітаптар / Qazaq tilindegi kitaptar / KA Китапхана - Қарақалпақ тилиндеги китаплар. Qaraqalpaq tilindegi kitaplar / KG Китепкана - Кыргыз тилиндеги китептер / TJ Китобхона - Китобхо бо забони точикй / TK Kitaphana - Türkmen dilinde kitaplar / UZ Kutubxona - Uzbek tilida kitoblar
 </span>
 					</div>
@@ -50,29 +49,6 @@
 
 <?php wp_footer(); ?>
 
-<style>
-	.footer__row {
-		display: flex;
-		column-gap: 15px;
-		flex-wrap: wrap;
-		padding: 20px 0px;
-		justify-content: space-between;
-	}
-	.footer__row-link {
-		display: flex;
-		column-gap: 20px;
-	}
-	.footer__row-link a {
-		font-size: 16px;
-		transition: all color ease 0s;
-	}
-	.footer__row-link a:hover {
-		color:rgb(214, 80, 80);
-	}
-	.footer__subtext {
-		opacity: 0.6;
-	}
-</style>
 
 </body>
 </html>
