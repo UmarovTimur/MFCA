@@ -13,7 +13,10 @@ $subcategories    = get_categories(
 	)
 );
 
-if ( $subcategories ) : ?>
+?>
+<h1 class="screen-reader-text"><?php echo esc_html( single_term_title( '', false ) ); ?></h1>
+
+<?php if ( $subcategories ) : ?>
 	<div class="subcategories-sliders">
 		<?php foreach ( $subcategories as $subcat ) : ?>
 			<?php $subcat_link = esc_url( get_category_link( $subcat->term_id ) ); ?>

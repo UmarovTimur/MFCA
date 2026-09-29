@@ -80,6 +80,7 @@ The theme is Sydney 2.13 with MFCA customisations kept apart from the stock code
 | `inc/mfca/post-grid.php` | "More from this category" grid under single posts |
 | `inc/mfca/breadcrumbs.php` | Breadcrumbs (Dimox) |
 | `inc/mfca/redirects.php` | `/category/...` → `/c/...` |
+| `inc/mfca/seo.php` | Meta description, canonical, Open Graph/Twitter, JSON-LD, `<html lang>` per content language, robots rules, `/llms.txt` (skipped when Yoast / Rank Math / AIOSEO / SEOPress is active) |
 | `inc/mfca/setup.php` | Post formats, FIFU REST meta |
 | `inc/mfca/assets.php` | Enqueues `css/mfca/*.css` (per page type) and `js/mfca/main.js` |
 | `archive.php`, `part-templates/` | Language category (slider per subcategory) and post lists |

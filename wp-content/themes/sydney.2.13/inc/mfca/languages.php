@@ -58,3 +58,67 @@ function mfca_translate( $text, $lang ) {
 
 	return isset( $translations[ $text ][ $lang ] ) ? $translations[ $text ][ $lang ] : $text;
 }
+
+/**
+ * Language tags for a language category slug.
+ *
+ * Note the slugs are site-specific: "ka" is Karakalpak (not Georgian),
+ * "kz" is Kazakh, "kg" Kyrgyz, "tj" Tajik.
+ *
+ * @param string $code Category slug.
+ * @return array|null array( 'lang' => BCP 47 tag, 'og' => Open Graph locale ) or null.
+ */
+function mfca_language_tags( $code ) {
+	static $tags = array(
+		'az' => array( 'lang' => 'az', 'og' => 'az_AZ' ),
+		'kz' => array( 'lang' => 'kk', 'og' => 'kk_KZ' ),
+		'ka' => array( 'lang' => 'kaa', 'og' => 'kaa_UZ' ),
+		'kg' => array( 'lang' => 'ky', 'og' => 'ky_KG' ),
+		'ce' => array( 'lang' => 'ce', 'og' => 'ce_RU' ),
+		'ru' => array( 'lang' => 'ru', 'og' => 'ru_RU' ),
+		'tj' => array( 'lang' => 'tg', 'og' => 'tg_TJ' ),
+		'tk' => array( 'lang' => 'tk', 'og' => 'tk_TM' ),
+		'uz' => array( 'lang' => 'uz', 'og' => 'uz_UZ' ),
+		'ug' => array( 'lang' => 'ug', 'og' => 'ug_CN' ),
+	);
+
+	return isset( $tags[ $code ] ) ? $tags[ $code ] : null;
+}
+
+/**
+ * Language code (category slug) of the content being viewed, or null.
+ *
+ * A post or category belongs to the language whose top-level category it sits under.
+ *
+ * @return string|null
+ */
+function mfca_current_language() {
+	static $cache = array();
+
+	$key = is_singular() ? 'p' . get_queried_object_id() : ( is_category() ? 'c' . get_queried_object_id() : '' );
+	if ( '' === $key ) {
+		return null;
+	}
+	if ( array_key_exists( $key, $cache ) ) {
+		return $cache[ $key ];
+	}
+
+	$term_ids = array();
+	if ( is_singular() ) {
+		$term_ids = wp_list_pluck( get_the_category(), 'term_id' );
+	} else {
+		$term_ids = array( get_queried_object_id() );
+	}
+
+	$found = null;
+	foreach ( $term_ids as $term_id ) {
+		$ancestors = array_reverse( get_ancestors( $term_id, 'category' ) );
+		$root      = $ancestors ? get_category( $ancestors[0] ) : get_category( $term_id );
+		if ( $root && ! is_wp_error( $root ) && mfca_is_language( $root->slug ) ) {
+			$found = $root->slug;
+			break;
+		}
+	}
+
+	return $cache[ $key ] = $found;
+}

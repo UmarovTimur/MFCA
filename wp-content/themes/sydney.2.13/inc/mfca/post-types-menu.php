@@ -33,7 +33,7 @@ function mfca_post_types_menu() {
 				<a class="post-header__item" data-type="<?php echo esc_attr( $type ); ?>">
 					<div class="post-header__link">
 						<div class="post-header__img">
-							<img src="<?php echo esc_url( $item[1] ); ?>" alt="">
+							<img src="<?php echo esc_url( $item[1] ); ?>" alt="<?php echo esc_attr( $item[0] ); ?>">
 						</div>
 						<div class="post-header__text"><?php echo esc_html( $item[0] ); ?></div>
 					</div>

@@ -6,6 +6,8 @@
  */
 ?>
 <main id="main" class="post-wrap" role="main">
+	<h1 class="screen-reader-text"><?php echo esc_html( wp_strip_all_tags( get_the_archive_title() ) ); ?></h1>
+
 	<?php mfca_post_types_menu(); ?>
 
 	<?php if ( have_posts() ) : ?>

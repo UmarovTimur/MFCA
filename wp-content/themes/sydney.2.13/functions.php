@@ -722,7 +722,7 @@ if ( defined( 'SITEORIGIN_PANELS_VERSION' ) && ( isset($pagenow) && $pagenow == 
 /**
  * MFCA customisations
  */
-foreach ( array( 'languages', 'setup', 'redirects', 'assets', 'breadcrumbs', 'post-types-menu', 'post-grid' ) as $mfca_module ) {
+foreach ( array( 'languages', 'setup', 'redirects', 'assets', 'breadcrumbs', 'post-types-menu', 'post-grid', 'seo' ) as $mfca_module ) {
 	require get_template_directory() . "/inc/mfca/{$mfca_module}.php";
 }
 unset( $mfca_module );
