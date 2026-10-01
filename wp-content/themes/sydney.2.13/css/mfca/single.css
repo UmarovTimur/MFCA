@@ -1,0 +1,104 @@
+/* Single post / video template */
+@media screen and (min-width: 922px) {
+	.content-wrapper {
+		width: 100%;
+	}
+}
+#main {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.single .entry-header,
+.single .entry-footer {
+	flex: 0 0 100%;
+	margin: 0;
+}
+.entry-header .entry-meta {
+	margin: 0;
+}
+.single .entry-content {
+	flex: 0 1 calc(100% - 440px);
+}
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4 {
+	margin-top: 0.5em !important;
+}
+.content-inner {
+	padding-top: 15px;
+}
+.single .entry-thumb {
+	margin-bottom: 0;
+}
+@media (min-width: 992.98px) {
+	.content-inner {
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 30px;
+	}
+	.single .entry-thumb {
+		flex: 0 0 420px;
+		margin-right: 20px;
+	}
+}
+.content-area .post-wrap,
+.contact-form-wrap {
+	padding-right: 0;
+}
+@media (max-width: 1024px) {
+	.container {
+		width: 100% !important;
+	}
+	h3 {
+		font-size: 32px;
+	}
+}
+.entry-title {
+	display: none;
+}
+
+/* Related posts grid */
+.custom-grid {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+.grid-card {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	transition: opacity 0.3s ease;
+}
+.grid-card:hover {
+	opacity: 0.8;
+}
+.grid-thumb {
+	aspect-ratio: 2 / 3;
+	overflow: hidden;
+}
+.grid-thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+.grid-title {
+	margin-top: 6px;
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+/* Sonaar mp3 player */
+.srp_player_boxed {
+	background-color: transparent !important;
+	padding: 5px 10px !important;
+}
+.srp_meta.srp_meta_0.album-title {
+	display: none !important;
+}
+.iron-audioplayer[data-playertemplate="skin_boxed_tracklist"] .sr-playlist-item,
+.iron-audioplayer[data-playertemplate="skin_boxed_tracklist"]:not(.srp_tracklist_grid) .playlist {
+	padding: 3px !important;
+}

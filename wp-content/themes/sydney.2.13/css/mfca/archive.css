@@ -1,0 +1,102 @@
+.page-wrap {
+	padding-bottom: 0 !important;
+}
+.content-wrapper {
+	flex: 1 1 auto;
+	padding-bottom: 20px;
+}
+
+/* Language (top-level) category: slider per subcategory */
+.subcategory-header {
+	margin-bottom: 15px;
+}
+.subcategory-header h2 a {
+	color: black;
+}
+.books-slider {
+	display: flex;
+	overflow-x: auto;
+}
+.books-slider::-webkit-scrollbar {
+	display: none;
+}
+.books-container {
+	display: flex;
+	column-gap: 20px;
+}
+.book-card {
+	width: 200px;
+}
+.book-cover {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 2 / 3;
+}
+.book-cover img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+/* Subcategory: list of books */
+h3 a {
+	font-size: 28px;
+	color: var(--sydney-headings-color);
+}
+h3 a:hover {
+	opacity: 0.8;
+}
+.post__book {
+	display: flex;
+	margin-bottom: 25px;
+}
+.post__book--text {
+	display: block;
+}
+.post__book-image {
+	flex: 1 0 auto;
+	text-align: center;
+	position: relative;
+	margin-right: 30px;
+}
+.post__book-image::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: #fff;
+	transition: all 0.3s ease 0s;
+}
+.post__book-image:hover::before {
+	opacity: 0.3;
+}
+.post__book-image img {
+	max-width: 170px;
+	height: auto;
+}
+.post__book-body {
+	flex: 1 1 100%;
+}
+@media screen and (max-width: 550px) {
+	.posts-layout {
+		padding: 0 15px;
+	}
+}
+@media (max-width: 550px) {
+	.post__book {
+		flex-direction: column;
+		margin-bottom: 15px;
+	}
+	.post__book-image {
+		margin-right: 0;
+	}
+	.post__book-image img {
+		max-width: 300px;
+	}
+}
