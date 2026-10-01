@@ -5,45 +5,40 @@
  * @package Sydney
  */
 
-get_header(); ?>
+get_header();
 
-	<?php $sidebar_pos 	= sydney_sidebar_position(); ?>
+$sidebar_pos = sydney_sidebar_position();
+$width       = get_theme_mod( 'fullwidth_single' ) ? 'fullwidth' : 'col-md-9';
+?>
 
-	<?php if (get_theme_mod('fullwidth_single')) { //Check if the post needs to be full width
-		$width = 'fullwidth';
-	} else {
-		$width = 'col-md-9';
-	} ?>
-
-	<?php do_action('sydney_before_content'); ?>
+	<?php do_action( 'sydney_before_content' ); ?>
 
 	<div id="primary" class="content-area <?php echo esc_attr( $sidebar_pos ); ?> <?php echo esc_attr( apply_filters( 'sydney_content_area_class', $width ) ); ?>">
 
 		<main id="main" class="post-wrap" role="main">
 
-			<?php post_types_menu_header(); ?>
+			<?php mfca_post_types_menu(); ?>
 
-			<?php if ( function_exists( 'dimox_breadcrumbs' ) ) dimox_breadcrumbs(); ?>
+			<?php dimox_breadcrumbs(); ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+			<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'single' ); ?>
+				<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || get_comments_number() ) :
+				<?php
+				if ( comments_open() || get_comments_number() ) {
 					comments_template();
-				endif;
-			?>
+				}
+				?>
 
-			<?php echo render_post_grid( mfca_get_related_posts_for_current_post() ); ?>
+				<?php echo mfca_related_posts_grid(); ?>
 
-		<?php endwhile; // end of the loop. ?>
+			<?php endwhile; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<?php do_action('sydney_after_content'); ?>
+	<?php do_action( 'sydney_after_content' ); ?>
 
 <?php do_action( 'sydney_get_sidebar' ); ?>
 <?php get_footer(); ?>

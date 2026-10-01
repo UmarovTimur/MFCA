@@ -1,45 +1,41 @@
 <?php
 /**
- * MFCA assets.
+ * MFCA styles and scripts.
  *
- * @package Sydney
+ * @package MFCA
  */
 
-defined( 'ABSPATH' ) || exit;
-
+/**
+ * Enqueue MFCA assets. Loaded after the Sydney stylesheets so it can override them.
+ */
 function mfca_enqueue_assets() {
-	wp_enqueue_style(
-		'mfca-theme',
-		get_template_directory_uri() . '/assets/mfca/css/mfca.css',
-		array( 'sydney-style' ),
-		'20260602'
-	);
+	$uri  = get_template_directory_uri();
+	$path = get_template_directory();
+	$deps = array( 'sydney-style-min', 'sydney-style' );
 
-	wp_enqueue_script(
-		'mfca-theme',
-		get_template_directory_uri() . '/assets/mfca/js/mfca.js',
-		array(),
-		'20260602',
-		true
-	);
+	$style = function ( $name ) use ( $uri, $path, $deps ) {
+		$file = "/css/mfca/{$name}.css";
+		wp_enqueue_style( "mfca-{$name}", $uri . $file, $deps, filemtime( $path . $file ) );
+	};
+
+	$style( 'common' );
+	$style( 'loader' );
+	wp_enqueue_script( 'mfca-loader', $uri . '/js/mfca/loader.js', array(), filemtime( $path . '/js/mfca/loader.js' ), true );
+
+	if ( is_single() ) {
+		$style( 'single' );
+		wp_enqueue_script( 'mfca-audiobook', $uri . '/js/mfca/audiobook.js', array(), filemtime( $path . '/js/mfca/audiobook.js' ), true );
+		$style( 'audiobook' );
+	}
+
+	if ( is_category() ) {
+		$style( 'archive' );
+	}
+
+	if ( is_page_template( 'page-templates/home-page.php' ) ) {
+		$style( 'home' );
+	}
+
+	wp_enqueue_script( 'mfca-main', $uri . '/js/mfca/main.js', array(), filemtime( $path . '/js/mfca/main.js' ), true );
 }
 add_action( 'wp_enqueue_scripts', 'mfca_enqueue_assets', 20 );
-
-function add_post_formats() {
-	add_theme_support( 'post-formats', array( 'audio', 'video', 'aside', 'image' ) );
-}
-add_action( 'after_setup_theme', 'add_post_formats', 20 );
-
-function add_fifu_meta_to_rest() {
-	register_post_meta(
-		'post',
-		'fifu_image_url',
-		array(
-			'type'         => 'string',
-			'single'       => true,
-			'show_in_rest' => true,
-		)
-	);
-}
-add_action( 'init', 'add_fifu_meta_to_rest' );
-

@@ -417,17 +417,6 @@ function sydney_header_clone() {
 }
 add_action('sydney_before_header', 'sydney_header_clone');
 
-
-// == Redirecy from /category/ to /c/
-add_action('template_redirect', function () {
-    if (strpos($_SERVER['REQUEST_URI'], '/category/') === 0) {
-        $new_url = str_replace('/category/', '/c/', $_SERVER['REQUEST_URI']);
-        wp_redirect($new_url, 301);
-        exit;
-    }
-});
-
-
 /**
  * Get image alt
  */
@@ -730,8 +719,10 @@ if ( defined( 'SITEORIGIN_PANELS_VERSION' ) && ( isset($pagenow) && $pagenow == 
 }
 
 
-
 /**
- * MFCA project customizations.
+ * MFCA customisations
  */
-require get_template_directory() . "/inc/mfca/bootstrap.php";
+foreach ( array( 'languages', 'setup', 'redirects', 'assets', 'breadcrumbs', 'menu-flags', 'post-types-menu', 'post-grid', 'audiobook-player', 'seo' ) as $mfca_module ) {
+	require get_template_directory() . "/inc/mfca/{$mfca_module}.php";
+}
+unset( $mfca_module );

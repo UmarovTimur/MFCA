@@ -1,0 +1,226 @@
+/* Footer */
+.footer__row {
+	display: flex;
+	column-gap: 15px;
+	flex-wrap: wrap;
+	padding: 20px 0;
+	justify-content: space-between;
+}
+.footer__row-link {
+	display: flex;
+	column-gap: 20px;
+}
+.footer__row-link a {
+	font-size: 16px;
+	transition: color 0s ease;
+}
+.footer__row-link a:hover {
+	color: rgb(214, 80, 80);
+}
+.footer__subtext {
+	opacity: 0.6;
+}
+
+/* Book / Audio / Video switcher */
+.post-header {
+	display: flex;
+	padding: 4px;
+	background-color: #00102e;
+	margin: 30px 0;
+}
+.post-header__item {
+	padding: 10px 20px;
+	transition: all 0.3s ease 0s;
+}
+.post-header__item._active {
+	background-color: rgba(255, 255, 255, 0.6) !important;
+}
+.post-header__item:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.post-header__link {
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.post-header__img {
+	height: 40px;
+	margin-right: 10px;
+}
+.post-header__img img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.post-header__text {
+	color: white !important;
+}
+@media screen and (max-width: 767.98px) {
+	.post-header {
+		margin: 15px 0;
+	}
+	.post-header__item {
+		flex: 1 1 0;
+		min-width: 0;
+		padding: 10px 4px;
+	}
+	.post-header__img {
+		margin-right: 0;
+	}
+	.post-header__link {
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: center;
+	}
+	.post-header__text {
+		font-size: 13px;
+		line-height: 1.25;
+		margin-top: 6px;
+		overflow-wrap: anywhere;
+	}
+}
+
+/* Flags in the header menu */
+.mfca-menu-flag {
+	display: inline-block;
+	width: 24px;
+	height: 16px;
+	object-fit: cover;
+	vertical-align: -2px;
+}
+
+/* Mobile menu: bigger, easier to tap */
+@media (max-width: 991px) {
+	.mobile-header .menu-toggle,
+	.mobile-header .header-search,
+	.sydney-offcanvas-menu .mobile-menu-close {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 44px;
+		min-height: 44px;
+	}
+	.mobile-header .menu-toggle .sydney-svg-icon {
+		width: 26px;
+		height: 18px;
+	}
+	.mobile-header .header-search .sydney-svg-icon {
+		width: 20px;
+		height: 20px;
+	}
+	.mobile-header .menu-toggle .sydney-svg-icon svg,
+	.mobile-header .header-search .sydney-svg-icon svg {
+		width: 100% !important;
+		height: 100% !important;
+		max-width: none;
+		max-height: none !important;
+	}
+	.mobile-header .site-logo {
+		max-height: 40px;
+		width: auto;
+	}
+	/* Off-canvas panel */
+	.sydney-offcanvas-menu {
+		width: min(88vw, 380px) !important;
+		max-width: none;
+		height: 100%;
+		padding: 0;
+		overflow-y: auto;
+		box-sizing: border-box;
+	}
+	.sydney-offcanvas-menu .mobile-header-item:first-child {
+		display: block;
+		padding: 10px 4px 10px 12px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+	}
+	.sydney-offcanvas-menu .mobile-header-item:first-child .row {
+		display: flex !important;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 !important;
+	}
+	.sydney-offcanvas-menu .mobile-header-item:first-child .row::before,
+	.sydney-offcanvas-menu .mobile-header-item:first-child .row::after {
+		display: none !important;
+	}
+	.sydney-offcanvas-menu .mobile-header-item:first-child .row > [class*="col-"] {
+		flex: 0 0 auto;
+		float: none;
+		width: auto !important;
+		max-width: none;
+		margin: 0;
+		padding: 0 !important;
+	}
+	.sydney-offcanvas-menu .mobile-header-item:first-child .site-branding {
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+	.sydney-offcanvas-menu .site-logo {
+		display: block;
+		max-height: 44px;
+		width: auto;
+	}
+	.sydney-offcanvas-menu .mobile-menu-close .sydney-svg-icon svg {
+		width: 18px;
+		height: 18px;
+		max-height: none;
+	}
+	.sydney-offcanvas-menu .mobile-header-item:nth-child(2) {
+		padding: 8px 12px 24px;
+	}
+	/* Language list */
+	.sydney-offcanvas-menu #mainnav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.sydney-offcanvas-menu #mainnav ul li {
+		display: block;
+		margin: 0;
+		padding: 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+	}
+	.sydney-offcanvas-menu #mainnav ul li:last-child {
+		border-bottom: 0;
+	}
+	.sydney-offcanvas-menu #mainnav ul li a {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		width: 100%;
+		min-height: 68px;
+		padding: 12px 8px;
+		box-sizing: border-box;
+		font-size: 20px;
+		line-height: 1.2;
+		outline: 0;
+		box-shadow: none;
+	}
+	.sydney-offcanvas-menu .mfca-menu-flag {
+		flex: 0 0 auto;
+		width: 48px;
+		height: 32px;
+		margin: 0;
+		border-radius: 3px;
+		object-fit: cover;
+		box-shadow: none;
+		filter: none;
+	}
+	/* Show the language name next to the flag */
+	.sydney-offcanvas-menu #mainnav .screen-reader-text {
+		position: static !important;
+		box-shadow: none !important;
+		border-radius: 0;
+		clip: auto !important;
+		clip-path: none;
+		width: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		color: inherit;
+		background: none;
+		font-size: inherit;
+		font-weight: inherit;
+	}
+}

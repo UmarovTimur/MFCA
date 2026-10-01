@@ -1,3 +1,5 @@
 wp-content/plugins/*
 wp-content/uploads/*
 ./.env
+# Old-site scrape output
+tools/mukitob/data/

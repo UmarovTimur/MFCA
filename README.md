@@ -14,7 +14,6 @@ This Docker configuration allows you to run your WordPress site with the Sydney 
 project-root/
 │
 ├── docker-compose.yml
-├── Dockerfile
 ├── .env
 ├── wp-config.php
 ├── setup.sh
@@ -61,11 +60,35 @@ You can modify the `.env` file to change database credentials and other settings
 To stop the containers, run:
 
 ```
-docker-compose down
+docker compose down
 ```
 
 To completely remove the containers and volumes (this will delete all data):
 
 ```
-docker-compose down -v
+docker compose down -v
 ```
+
+## Theme structure (`wp-content/themes/sydney.2.13`)
+
+The theme is Sydney 2.13 with MFCA customisations kept apart from the stock code:
+
+| Path | Purpose |
+| --- | --- |
+| `inc/mfca/languages.php` | Language codes (top-level categories), home page names, label translations |
+| `inc/mfca/post-types-menu.php` | Book / Audio / Video switcher |
+| `inc/mfca/post-grid.php` | "More from this category" grid under single posts |
+| `inc/mfca/breadcrumbs.php` | Breadcrumbs (Dimox) |
+| `inc/mfca/redirects.php` | `/category/...` → `/c/...` |
+| `inc/mfca/seo.php` | Meta description, canonical, Open Graph/Twitter, JSON-LD, `<html lang>` per content language, robots rules, `/llms.txt` (skipped when Yoast / Rank Math / AIOSEO / SEOPress is active) |
+| `inc/mfca/setup.php` | Post formats, FIFU REST meta |
+| `inc/mfca/assets.php` | Enqueues `css/mfca/*.css` (per page type) and `js/mfca/main.js` |
+| `archive.php`, `part-templates/` | Language category (slider per subcategory) and post lists |
+| `page-templates/home-page.php` | Language picker home page |
+| `post-templates/page_video.php` | Full width video template |
+
+To add a language, add its code to `mfca_languages()` and a flag to `images/flags/<code>.png`.
+
+## Deploy
+
+Pushing to the `release` branch uploads the theme folder to the FTP server (`.github/workflows/deploy-theme.yml`).
