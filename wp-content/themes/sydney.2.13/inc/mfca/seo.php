@@ -62,9 +62,9 @@ function mfca_archive_canonical() {
 function mfca_social_image() {
 	if ( is_singular() ) {
 		$id  = get_queried_object_id();
-		$url = get_the_post_thumbnail_url( $id, 'large' );
+		$url = mfca_fifu_url( $id );
 		if ( ! $url ) {
-			$url = get_post_meta( $id, 'fifu_image_url', true );
+			$url = get_the_post_thumbnail_url( $id, 'large' );
 		}
 		if ( $url ) {
 			return $url;
