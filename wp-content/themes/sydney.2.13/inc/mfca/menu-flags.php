@@ -38,7 +38,13 @@ function mfca_menu_item_flag( $title, $item ) {
 		esc_url( get_theme_file_uri( $file ) )
 	);
 
-	return $flag . '<span class="screen-reader-text">' . $title . '</span>';
+	// Old menu titles may hold an <img>; keep the text only, falling back to the category name.
+	$label = trim( wp_strip_all_tags( $title ) );
+	if ( '' === $label ) {
+		$label = $term->name;
+	}
+
+	return $flag . '<span class="screen-reader-text">' . esc_html( $label ) . '</span>';
 }
 add_filter( 'nav_menu_item_title', 'mfca_menu_item_flag', 10, 2 );
 
